@@ -1,0 +1,73 @@
+<div class="page" data-name="about">
+  <div class="navbar bg-color-blue">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" onclick="stoptest()" class="link back text-color-black">
+          <i class="icon icon-back"></i>
+          <span class="ios-only">Back</span>
+        </a>
+      </div>
+      <div class="title">Personality Test</div>
+    </div>
+  </div>
+  <div class="page-content">
+
+				<div class="block"> 
+				
+				<div class="row text-align-center" style="display:none">
+					<div class="col">A</div>
+					<div class="col">B</div>
+					<div class="col">C</div>
+					<div class="col">D</div>
+					<div class="col">E</div>
+					<div class="col">F</div>
+					<div class="col">G</div>
+					<div class="col">H</div>
+					<div class="col">I</div>
+				</div>
+				<div class="row text-align-center" style="display:none">
+					<div class="col" id="CountA">0</div>
+					<div class="col" id="CountB">0</div>
+					<div class="col" id="CountC">0</div>
+					<div class="col" id="CountD">0</div>
+					<div class="col" id="CountE">0</div>
+					<div class="col" id="CountF">0</div>
+					<div class="col" id="CountG">0</div>
+					<div class="col" id="CountH">0</div>
+					<div class="col" id="CountI">0</div>
+				</div>
+				
+				<div class="row text-align-center" style="display:none">
+					<div class="col" id="PersonalA">9</div>
+					<div class="col" id="PersonalB">6</div>
+					<div class="col" id="PersonalC">3</div>
+					<div class="col" id="PersonalD">1</div>
+					<div class="col" id="PersonalE">4</div>
+					<div class="col" id="PersonalF">2</div>
+					<div class="col" id="PersonalG">8</div>
+					<div class="col" id="PersonalH">5</div>
+					<div class="col" id="PersonalI">7</div>
+				</div>
+				<div class="row text-align-center" style="display:none">
+				<div class="col" id="Total">0</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="elevation-20 text-align-center" ><h2 id="timeleft"></h2></div>
+					</div>
+			</div>
+			<h3>Choose the option which best suits you...</h3>
+			<div class="block-title" id="Questions"></div>
+<!-- Inset content block -->
+<div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerA" onclick="nextQuestion()">
+  <h3 id="QuestionA" ></h3>
+		<h3 id="QuestionHA" ></h3>
+</div>
+<div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerB" onclick="nextQuestion()">
+  <h3 id="QuestionB"></h3>
+		<h3 id="QuestionHB" ></h3>
+</div>
+				</div>
+  </div>
+	</div>
+
