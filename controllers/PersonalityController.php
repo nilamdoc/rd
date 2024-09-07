@@ -2,9 +2,9 @@
 namespace app\controllers;
 use lithium\storage\Session;
 
-use app\models\Ruchidoctor_personalitytests;
+use app\models\ruchidoctor_personalitytests;
 
-use app\models\Ruchidoctor_users;
+use app\models\ruchidoctor_users;
 
 class PersonalityController extends \lithium\action\Controller {
 
@@ -25,7 +25,7 @@ class PersonalityController extends \lithium\action\Controller {
 
 	public function index(){
 		
-		$questions = Ruchidoctor_personalitytests::find('all',array('order'=>array('question'=>'ASC'))); 
+		$questions = ruchidoctor_personalitytests::find('all',array('order'=>array('question'=>'ASC'))); 
 		
 		return $this->render(array('json' => array("success"=>"Yes",'questions'=>$questions)));
 		
