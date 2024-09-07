@@ -2,9 +2,9 @@
 namespace app\controllers;
 use lithium\storage\Session;
 
-use app\models\ruchidoctor_personalitytests;
+use app\models\Ruchidoctor_personalitytests;
 
-use app\models\ruchidoctor_users;
+use app\models\Ruchidoctor_users;
 
 class PersonalityController extends \lithium\action\Controller {
 
