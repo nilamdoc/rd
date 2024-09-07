@@ -57,8 +57,8 @@ Connections::add('defaultMySQL', [
 	'adapter' => 'MySql',
 	'host' => 'localhost',
 	'login' => 'rd_desk',
-	'password' => 'BQqX7crhvr',
-//	'password' => '!gj1hm13490210Ahd',
+//	'password' => 'BQqX7crhvr',
+	'password' => '!gj1hm13490210Ahd',
 	'database' => 'rd_desk'
  ]);
 ?>
