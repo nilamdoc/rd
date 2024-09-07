@@ -4,7 +4,7 @@ use lithium\storage\Session;
 
 use app\models\Ruchidoctor_personalitytests;
 
-use app\models\Users;
+use app\models\Ruchidoctor_users;
 
 class PersonalityController extends \lithium\action\Controller {
 
