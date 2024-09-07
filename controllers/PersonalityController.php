@@ -2,7 +2,7 @@
 namespace app\controllers;
 use lithium\storage\Session;
 
-use app\models\ruchidoctor_personalitytests;
+use app\models\Ruchidoctor_personalitytests;
 
 use app\models\Users;
 
