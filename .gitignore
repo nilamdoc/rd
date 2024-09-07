@@ -17,6 +17,8 @@
 
 # Libraries 
 # libraries/*
+# Connections
+config/bootstrap/connections.php
 
 # Temporary files, i.e. compiled templates.
 resources/tmp/*
