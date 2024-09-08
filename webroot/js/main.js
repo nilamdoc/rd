@@ -58,3 +58,6 @@ function Start(){
 	console.log("hi");
 	
 }
+function goto(div){
+	console.log(div)
+}
