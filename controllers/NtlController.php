@@ -5,7 +5,7 @@ use lithium\storage\Session;
 use app\models\ruchidoctor_followup;
 use app\models\ruchidoctor_users;
 
-class EtlController extends \lithium\action\Controller {
+class NtlController extends \lithium\action\Controller {
 
 	protected function _init(){
 		parent::_init();
