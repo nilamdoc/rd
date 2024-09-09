@@ -2,8 +2,8 @@
 var app = new Framework7({
   root: '#app',
   init: true,
-  id: 'team.sff.mall',
-  name: 'SFF-Mall',
+  id: 'com.ruchidoctor.app',
+  name: 'RuchiDoctor',
   theme: 'auto',
   template7Pages: true,
   allowDuplicateUrls: true,
@@ -45,6 +45,9 @@ var app = new Framework7({
    closeButton: true,
   },
  // routes: routes,
+   panel: {
+    swipe: true,
+  },
   calendar: {
    url: 'calendar/',
    dateFormat: 'dd/mm/yyyy',
