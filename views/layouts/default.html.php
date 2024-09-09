@@ -4,9 +4,9 @@
 	<?php echo $this->html->charset();?>
 	<title>Ruchi Doctor, Coach, Author, Networker &gt; <?php echo $this->title(); ?></title>
 	<?php echo $this->html->style([ 'style']); ?>
-	<link rel="stylesheet" type="text/css" href="/css/framework7-bundle.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/framework7-bundle.css">
 	<?php echo $this->styles(); ?>
-	<script type="text/javascript" src="/framework7/framework7-bundle.min.js"></script>
+	<script type="text/javascript" src="/framework7/framework7-bundle.js"></script>
 	<script type="text/javascript" src="/js/main.js"></script>
 
 	<?php echo $this->html->link('Icon', null, ['type' => 'icon']); ?>
