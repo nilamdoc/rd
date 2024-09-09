@@ -14,27 +14,27 @@
 	</div>
 </div>
 <div id="leadnames" name="leadnames" style=" background-color: #000;" class="text-align-center">
-	<a href='ETL' class="link external">
+	<a href='etl' class="link external">
 	<img src="img/LEAD/ETL.png" width="70%">
 	</a>
 	<hr>
-	<a href='STL'  class="link external">
+	<a href='stl'  class="link external">
 	<img src="img/LEAD/STL.png" width="70%">
 	</a>
 	<hr>
-	<a href='NTL' class="link external">
+	<a href='ntl' class="link external">
 	<img src="img/LEAD/NTL.png" width="70%">
 	</a>
 	<hr>
-	<a href='ATL' class="link external">
+	<a href='atl' class="link external">
 	<img src="img/LEAD/ATL.png" width="70%">
 	</a>
 	<hr>
-	<a href='CTL' class="link external">
+	<a href='ctl' class="link external">
 	<img src="img/LEAD/CTL.png" width="70%">
 	</a>
 	<hr>
-	<a href='RTL' class="link external">
+	<a href='rtl' class="link external">
 	<img src="img/LEAD/RTL.png" width="70%">
 	</a>
 	<hr>
