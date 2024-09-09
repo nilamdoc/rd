@@ -6,8 +6,8 @@
 	<?php echo $this->html->style([ 'style']); ?>
 	<link rel="stylesheet" href="https://ruchidoctor.com/rd/css/framework7-bundle.min.css">
 	<?php echo $this->styles(); ?>
-	<script type="text/javascript" src="https://ruchidoctor.com/rd//framework7/framework7-bundle.min.js"></script>
-	<script type="text/javascript" src="https://ruchidoctor.com/rd//js/main.js"></script>	
+	<script type="text/javascript" src="https://ruchidoctor.com/rd/framework7/framework7-bundle.min.js"></script>
+	<script type="text/javascript" src="https://ruchidoctor.com/rd/js/main.js"></script>	
 
 	<?php echo $this->html->link('Icon', null, ['type' => 'icon']); ?>
 	<link rel="preconnect" href="https://fonts.googleapis.com">

@@ -2,7 +2,7 @@
     <div class="block">
  <?php
 	foreach($videos as $v){
-?>     <div class="grid grid-cols-2 grid-gap">
+?>     <div class="grid grid-cols-2 grid-gap lazy">
         <div>
 			<?=$v->{"description"}?>
         </div>
