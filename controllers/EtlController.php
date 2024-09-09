@@ -15,7 +15,7 @@ class EtlController extends \lithium\action\Controller {
 	public function index(){
 		
 		$users = Ruchidoctor_users::find('all',array('order'=>array('id'=>'ASC'))); 
-		return $this->render(array('json' => array("success"=>"Yes",'users'=>$users)));		      
+		//return $this->render(array('json' => array("success"=>"Yes",'users'=>$users)));		      
 		
 	}
 	

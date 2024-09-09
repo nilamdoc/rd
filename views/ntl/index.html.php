@@ -1,22 +1,31 @@
-<h1>Add / Edit</h1>
-<div class="page-content hide-navbar-on-scroll">
-  <form class="list" id="etl-form"  >
-   <ul>
-      <li id="FirstNameDiv">
-        <div class="item-content item-input">
-          <div class="item-inner">
-            <div class="item-title item-label">First Name</div>
-            <div class="item-input-wrap">
-              <input type="text" name="firstName" id="firstName" placeholder="First Name" required validate >
-            </div>
-          </div>
+<div class="block-title">Videos</div>
+    <div class="block">
+      <div class="grid grid-cols-2 grid-gap">
+        <div>
+			<iframe width="100%" height="400px" src="https://www.youtube.com/embed/BI2wjDec-G0"></iframe>
         </div>
-      </li>
-    </ul>
-  <div class="fab fab-right-bottom">
-    <a href="#">
-      <i class="icon f7-icons">plus</i>
-    </a>
-  </div>
+        <div>
+			<iframe width="100%" height="400px" src="https://www.youtube.com/embed/C2p0dT1rll4"></iframe>
+        </div>
+      </div>
+    </div>
+	<div class="block">
+      <div class="grid grid-cols-2 grid-gap">
+        <div>
+			<iframe width="100%" height="400px" src="https://www.youtube.com/embed/lGkYjt1EFHo"></iframe>
+        </div>
+        <div>
+			<iframe width="100%" height="400px" src="https://www.youtube.com/embed/aZ7BE4SEKBg"></iframe>
+        </div>
+      </div>
+    </div>s
+</div>
 
-</form>
+
+
+<div>
+	 
+
+
+
+</div>

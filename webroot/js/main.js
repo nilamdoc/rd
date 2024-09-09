@@ -59,5 +59,6 @@ function Start(){
 	
 }
 function goto(div){
-	console.log(div)
+	console.log(div);
+	
 }
