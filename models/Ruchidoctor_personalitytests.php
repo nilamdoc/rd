@@ -6,3 +6,4 @@ class Ruchidoctor_personalitytests extends \lithium\data\Model {
 		'connection' => 'defaultMySQL'
 	);
 }
+?>

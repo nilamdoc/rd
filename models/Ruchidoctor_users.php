@@ -6,3 +6,4 @@ class Ruchidoctor_users extends \lithium\data\Model {
 		'connection' => 'defaultMySQL'
 	);
 }
+?>

@@ -6,3 +6,4 @@ class Ruchidoctor_videos extends \lithium\data\Model {
 		'connection' => 'defaultMySQL'
 	);
 }
+?>
