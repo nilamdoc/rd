@@ -34,8 +34,14 @@
 	<img src="img/LEAD/CTL.png" width="70%">
 	</a>
 	<hr>
+	<a href='wtl' class="link external">
+	<img src="img/LEAD/WTL.png" width="70%">
+	</a>
+	<hr>
 	<a href='rtl' class="link external">
 	<img src="img/LEAD/RTL.png" width="70%">
 	</a>
-	<hr>
+	<hr>	
+	<img src="img/LEAD/the lead.gif" width="70%">
+	
 </div>

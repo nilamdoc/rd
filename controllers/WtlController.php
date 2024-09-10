@@ -2,10 +2,10 @@
 namespace app\controllers;
 use lithium\storage\Session;
 
-use app\models\ruchidoctor_calendly;
+use app\models\ruchidoctor_followup;
 use app\models\ruchidoctor_users;
 
-class CalendlyController extends \lithium\action\Controller {
+class WtlController extends \lithium\action\Controller {
 
 	protected function _init(){
 		parent::_init();
