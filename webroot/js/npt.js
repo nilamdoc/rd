@@ -50,7 +50,7 @@ var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((t % (1000 * 60)) / 1000); 
 document.getElementById("timeleft").innerHTML = 
 //days + "d " + hours + "h " + 
-minutes + "m " + seconds + "s "; 
+minutes + " minutes " + seconds + " seconds"; 
     if (t < 0) { 
         clearInterval(x); 
         document.getElementById("timeleft").innerHTML = "EXPIRED"; 
@@ -68,7 +68,7 @@ function showquestion(i,questions){
 	if(i<=145){
 	var gotData = JSON.parse(localStorage[storage+".datapersonality"]);
 //console.log(gotData);
-	$$("#Questions").html((parseInt(i))+"/"+questions);
+	$$("#Questions").html((parseInt(i))+"/"+questions+" questions");
 	$$("#prevQuestions").html(("Previous "+parseInt(i))+"/"+questions);
 	
 	$$("#QuestionA").html(gotData['questions'][i]['QA']);

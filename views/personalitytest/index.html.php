@@ -26,13 +26,28 @@
 		   <div id="Information"  ></div>
   
   <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerA" onclick="nextQuestion()">
-  <h2 id="QuestionA" ></h2>
-		<h2 id="QuestionHA" ></h2>
-  </div>
+	<table>
+		<tr>
+			<td><input type="radio" name="Question"></td>
+			<td rowspan="2">
+				<h2 id="QuestionA" ></h2>
+				<h2 id="QuestionHA" ></h2>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</div>
   <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerB" onclick="nextQuestion()">
-  <h2 id="QuestionB"></h2>
-		<h2 id="QuestionHB" ></h2>
-  </div>
+  <table>
+		<tr>
+			<td><input type="radio" name="Question"></td>
+			<td rowspan="2">
+				<h2 id="QuestionB"></h2>
+				<h2 id="QuestionHB" ></h2>
+			</td>
+		</tr>
+	</table>
+	</div>
   <div class="block block-strong inset elevation-20" style="border:3px solid gray;display:none" id="ContactInfo" >
   <form action="/personalitytest/action" method="post" class="list list-strong-ios list-dividers-ios list-outline-ios">
 	  <label for="fname">First name:</label><br>
