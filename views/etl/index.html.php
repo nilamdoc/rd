@@ -1,4 +1,4 @@
-<h1>Add / Edit</h1>
+<h1 class="text-align-center ">English to Lead<br><img src="img/LEAD/ETL.png" width="70%">
+	</h1>
 <div>
-  <a href="ETL">ETL</a>
 </div>
