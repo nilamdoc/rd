@@ -60,32 +60,58 @@ minutes + " minutes " + seconds + " seconds";
 
 
 var ii = 1;
+
 showquestion (ii,questions);
+}
+
+function showSelected(){
+		var gotData = JSON.parse(localStorage[storage+".datapersonality"]);
+		var nextQues = parseInt($$("#Ques").value())+1;
+var nextQuestionA = 'nextquestion('+nextQues+',"'+$$('#AA').value()+'",'+144+')';
+var nextQuestionB = 'nextquestion('+nextQues+',"'+$$('#AB').value()+'",'+144+')';
+	
+	console.log($$("#Question").prop('checked'));	
+	if($$("#Question").prop('checked')==true){
+	document.getElementById("Selected").innerHTML=$$("#QuestionA").html();
+	document.getElementById("SelectedH").innerHTML=$$("#QuestionHA").html();
+	$$("#nextQues").attr('onclick',nextQuestionA);
+	}else{
+	document.getElementById("Selected").innerHTML=$$("#QuestionB").html();
+	document.getElementById("SelectedH").innerHTML=$$("#QuestionHB").html();
+	$$("#nextQues").attr('onclick',nextQuestionB);
+	}
 }
 
 
 function showquestion(i,questions){
+	$$("#Question").prop('checked', false);
+	$$("#Selected").html("");
+	$$("#SelectedH").html("");
 	if(i<=145){
+		
 	var gotData = JSON.parse(localStorage[storage+".datapersonality"]);
 //console.log(gotData);
 	$$("#Questions").html((parseInt(i))+"/"+questions+" questions");
+	$$("#Ques").value(parseInt(i));
 	$$("#prevQuestions").html(("Previous "+parseInt(i))+"/"+questions);
 	
 	$$("#QuestionA").html(gotData['questions'][i]['QA']);
 	$$("#QuestionB").html(gotData['questions'][i]['QB']);
+	$$("#AA").value(gotData['questions'][i]['AA']);
+	$$("#AB").value(gotData['questions'][i]['AB']);
 	$$("#QuestionHA").html(gotData['questions'][i]['HA']);
 	$$("#QuestionHB").html(gotData['questions'][i]['HB']);
 	var nextQuestionA = 'nextquestion("'+(parseInt(i)+1)+'","'+gotData['questions'][i]['AA']+'","'+questions+'")';
 	var nextQuestionB = 'nextquestion("'+(parseInt(i)+1)+'","'+gotData['questions'][i]['AB']+'","'+questions+'")';
 	//var prevQuestion = 'prevquestion("'+(parseInt(i)-1)+'","'+questions+'")';
 	//console.log(prevQuestion)
-	$$("#AnswerA").attr('onclick',nextQuestionA);
+	// $$("#AnswerA").attr('onclick',nextQuestionA);
 	$$("#AnswerA").attr('style',gotData['questions'][i]['color']);
 
-	$$("#AnswerB").attr('onclick',nextQuestionB);
+//	$$("#AnswerB").attr('onclick',nextQuestionB);
 	$$("#AnswerB").attr('style',gotData['questions'][i]['color']);
 	//$$("#prevQuestion").attr('onclick',prevQuestion);
-	
+	console.log($$("#nextQues").attr("onclick"));
 	}
 }
 
@@ -100,6 +126,7 @@ function prevquestion(i,questions){
 }
 
 function nextquestion(i,answer, questions){
+	
 	if(i<=144){
 			//j =i-1;
 			
@@ -107,6 +134,7 @@ function nextquestion(i,answer, questions){
 		//	localStorage.setItem(storage+'.datapersonality',questions);
 			
 	showquestion(i,questions);
+	
 	switch(answer) {
   case "A":
 				$$("#CountA").html(parseInt($$("#CountA").html())+1);

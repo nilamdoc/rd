@@ -24,29 +24,43 @@
 
 		   <div id="NPTresult"  ></div>
 		   <div id="Information"  ></div>
-  
-  <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerA" onclick="nextQuestion()">
-	<table>
+<style>
+table {
+	border-collapse: collapse;
+  width: 100%;
+}
+</style>
+  <div>
+  <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerA" onclick="showSelected()" >
+	<table width="col:100%">
 		<tr>
-			<td><input type="radio" name="Question"></td>
-			<td rowspan="2">
-				<h2 id="QuestionA" ></h2>
-				<h2 id="QuestionHA" ></h2>
+			<td col="20px"><input type="radio" name="Question" id="Question"></td>
+			<td col="45%"><h2 id="QuestionA" ></h2></td>
+			<td col="45%"><h2 id="QuestionHA" ></h2></td>
+			<input type="hidden" value="" id="AA">
+			<input type="hidden" value="" id="Ques">
+			
 			</td>
 		</tr>
 	</table>
 	</div>
 	</div>
-  <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerB" onclick="nextQuestion()">
+  <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerB" onclick="showSelected()">
   <table>
 		<tr>
-			<td><input type="radio" name="Question"></td>
-			<td rowspan="2">
-				<h2 id="QuestionB"></h2>
-				<h2 id="QuestionHB" ></h2>
+			<td col="20px"><input type="radio" name="Question" id="Question"></td>
+			<td col="45%"><h2 id="QuestionB"></h2></td>
+			<td col="45%"><h2 id="QuestionHB" ></h2></td>
+			<input type="hidden" value="" id="AB">
 			</td>
 		</tr>
 	</table>
+	</div>
+		<div class="block block-strong inset elevation-20" style="border:3px solid gray">
+		<h2 id="Selected"></h2>
+		<h2 id="SelectedH"></h2>
+		<a onclick="" class="button button-fill" id="nextQues">Next</a>
+		</div>
 	</div>
   <div class="block block-strong inset elevation-20" style="border:3px solid gray;display:none" id="ContactInfo" >
   <form action="/personalitytest/action" method="post" class="list list-strong-ios list-dividers-ios list-outline-ios">
