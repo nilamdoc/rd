@@ -12,11 +12,11 @@
 	<?php echo $this->html->link('Icon', null, ['type' => 'icon']); ?>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap&family=Bebas+Neue&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/framework7/framework7-icons/css/framework7-icons.css">
 </head>
 <body class="view-main" id="app">
-	<div class="block Sans">
+	<div class=" Bebas ">
 	<?php echo $this->_render('element', 'header');?>
 		<?php echo $this->content(); ?>
 	<hr>

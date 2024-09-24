@@ -59,7 +59,7 @@ table {
 		<div class="block block-strong inset elevation-20" style="border:3px solid gray">
 		<h2 id="Selected"></h2>
 		<h2 id="SelectedH"></h2>
-		<a onclick="" class="button button-fill" id="nextQues">Next</a>
+		<a onclick="" class="button button-fill button-large"  id="nextQues"><span style="text-weight:bold">Next</span></a>
 		</div>
 	</div>
   <div class="block block-strong inset elevation-20" style="border:3px solid gray;display:none" id="ContactInfo" >

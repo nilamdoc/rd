@@ -6,7 +6,7 @@ use app\models\Ruchidoctor_personalitytests;
 use app\models\Ruchidoctor_users;
 
 
-class PersonalitytestController extends \lithium\action\Controller {
+class WhoyouareController extends \lithium\action\Controller {
 
 	protected function _init(){
 		parent::_init();
