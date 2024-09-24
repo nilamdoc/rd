@@ -63,7 +63,7 @@ table {
 		</div>
 	</div>
   <div class="block block-strong inset elevation-20" style="border:3px solid gray;display:none" id="ContactInfo" >
-  <form action="/personalitytest/action" method="post" class="list list-strong-ios list-dividers-ios list-outline-ios">
+  <form action="/whoyouare/action" method="post" class="list list-strong-ios list-dividers-ios list-outline-ios">
 	  <label for="fname">First name:</label><br>
 	  <input type="text" id="fname" name="fname" value="" required="required"><br>
 	  <label for="lname">Last name:</label><br>
