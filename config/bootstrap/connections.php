@@ -59,6 +59,6 @@ Connections::add('defaultMySQL', [
 	'login' => 'rd_desk',
 //	'password' => 'BQqX7crhvr',
 	'password' => '!gj1hm13490210Ahd',
-	'database' => 'rd_daesk'
+	'database' => 'rd_desk'
  ]);
 ?>
