@@ -12,8 +12,7 @@ const questionsServer = async () => {
                    },
                    body: JSON.stringify({
              // your expected POST request payload goes here
-                     status: status,
-                     questions: questions
+                     
                     })
                  });
                  const data = await response.json();
