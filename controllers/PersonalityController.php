@@ -24,6 +24,10 @@ class PersonalityController extends \lithium\action\Controller {
 		
 		$questions = Ruchidoctor_personalitytests::find('all',array('order'=>array('question'=>'ASC'))); 
 	//	var_dump($questions);
+	
+	//header("Content-type: application/json"); // My assumption of your model.. 
+//    var_dump( json_encode($questions));
+	
 		return $this->render(array("json" => array("success"=>"Yes","questions"=>$questions)));
 		
 	}
