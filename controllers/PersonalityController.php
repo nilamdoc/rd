@@ -14,8 +14,12 @@ class PersonalityController extends \lithium\action\Controller {
 		ini_set('display_errors', 'On');
 
 
+		print_r($questions);
 		
 
+    header("Access-Control-Allow-Origin: *");
+    header("Access-Control-Allow-Methods: PUT, GET, POST");
+    header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
 
 //		$this->_render['layout'] = 'coach';
 	}
