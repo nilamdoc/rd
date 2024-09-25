@@ -5,7 +5,13 @@ questionsServer()
 
 
 async function questionsServer(){
-		const response = await fetch(host);
+		const response = await fetch(host,{
+			  method: "post",
+  headers: {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json'
+		}},
+);
 		const questions = await response.json();
 		questionsserver = JSON.stringify(questions);
 		console.log(questionsserver)
