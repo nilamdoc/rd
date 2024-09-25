@@ -1,31 +1,16 @@
 var $$ = Dom7;
 var host = window.location.protocol +'//' +window.location.host  + '/personality' + '/';
 var storage = 'npt';
-
-
-const questionsServer = async () => {
-            try {
-                const response = await fetch(host, {
-                 method: 'POST',
-                 headers: {
-                   'Content-Type': 'application/json'
-                   },
-                   body: JSON.stringify({
-             // your expected POST request payload goes here
-                     
-                    })
-                 });
-                 const data = await response.json();
-              // enter you logic when the fetch is successful
-                 console.log(data);
-               } catch(error) {
-             // enter your logic for when there is an error (ex. error toast)
-
-                  console.log(error)
-                 } 
-            }
 questionsServer()
 
+
+async function questionsServer(){
+		const response = await fetch(host);
+		const questions = await response.json();
+		questionsserver = JSON.stringify(questions);
+		console.log(questionsserver)
+		localStorage.setItem(storage+'.datapersonality',questionsserver);
+}
 if(!typeof localStorage[storage+".datapersonality"] === 'undefined'){  
 	
 	}else{
