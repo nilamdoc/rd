@@ -70,11 +70,13 @@ function showSelected(){
 var nextQuestionA = 'nextquestion('+nextQues+',"'+$$('#AA').value()+'",'+144+')';
 var nextQuestionB = 'nextquestion('+nextQues+',"'+$$('#AB').value()+'",'+144+')';
 	
-	console.log($$("#Question").prop('checked'));	
-	if($$("#Question").prop('checked')==true){
+	
+	if($$("#QuestionA").prop('checked')==true){
+		
 	document.getElementById("Selected").innerHTML=$$("#QuestionA").html();
 	document.getElementById("SelectedH").innerHTML=$$("#QuestionHA").html();
 	$$("#nextQues").attr('onclick',nextQuestionA);
+		
 	}else{
 	document.getElementById("Selected").innerHTML=$$("#QuestionB").html();
 	document.getElementById("SelectedH").innerHTML=$$("#QuestionHB").html();

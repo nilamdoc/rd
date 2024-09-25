@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="/framework7/framework7-icons/css/framework7-icons.css">
 </head>
 <body class="view-main" id="app">
-	<div class=" Bebas ">
+	<div class=" Sans s18 ">
 	<?php echo $this->_render('element', 'header');?>
 		<?php echo $this->content(); ?>
 	<hr>

@@ -31,10 +31,10 @@ table {
 }
 </style>
   <div>
-  <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerA" onclick="showSelected()" >
+  <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerA" onclick="showSelected()"  onmouseover="" name="AnswerA">
 	<table width="col:100%">
 		<tr>
-			<td col="20px"><input type="radio" name="Question" id="Question"></td>
+			<td col="20px"><label class="radio"><input type="radio" name="Question" id="QuestionA" ><i class="icon-radio"></i></label></td>
 			<td col="45%"><h2 id="QuestionA" ></h2></td>
 			<td col="45%"><h2 id="QuestionHA" ></h2></td>
 			<input type="hidden" value="" id="AA">
@@ -45,10 +45,10 @@ table {
 	</table>
 	</div>
 	</div>
-  <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerB" onclick="showSelected()">
+  <div class="block block-strong inset elevation-20" style="border:3px solid gray" id="AnswerB" onclick="showSelected()" name="AnswerB">
   <table>
 		<tr>
-			<td col="20px"><input type="radio" name="Question" id="Question"></td>
+			<td col="20px"><label class="radio"><input type="radio" name="Question" id="QuestionB"><i class="icon-radio"></i></label></td>
 			<td col="45%"><h2 id="QuestionB"></h2></td>
 			<td col="45%"><h2 id="QuestionHB" ></h2></td>
 			<input type="hidden" value="" id="AB">
