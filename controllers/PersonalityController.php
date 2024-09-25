@@ -26,7 +26,7 @@ class PersonalityController extends \lithium\action\Controller {
 	public function index(){
 		
 		$questions = Ruchidoctor_personalitytests::find('all',array('order'=>array('question'=>'ASC'))); 
-		print_r($questions)
+		print_r($questions);
 		return $this->render(array('json' => array("success"=>"Yes",'questions'=>$questions)));
 		
 	}
