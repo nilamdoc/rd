@@ -37,7 +37,7 @@ use lithium\data\Connections;
  * configurations per named connection, depending on the current environment. For information on
  * specifying environment-based configurations, see the `Environment` class.
  *
- * @see lithium\core\Adaptable
+ * @see lithium\core\Adaptabl
  * @see lithium\core\Environment
  */
    Connections::add('default', array(
@@ -56,7 +56,7 @@ Connections::add('defaultMySQL', [
 	'type' => 'database',
 	'adapter' => 'MySql',
 	'host' => 'localhost',
-	'login' => 'root',
+	'login' => 'rd_desk',
 //	'password' => 'BQqX7crhvr',
 	'password' => '!gj1hm13490210Ahd',
 	'database' => 'rd_desk'
