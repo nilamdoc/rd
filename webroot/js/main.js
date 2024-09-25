@@ -58,10 +58,10 @@ var app = new Framework7({
   },
  });
 function Start(){
-	console.log("hi");
+//	console.log("hi");
 	
 }
 function goto(div){
-	console.log(div);
+//	console.log(div);
 	
 }

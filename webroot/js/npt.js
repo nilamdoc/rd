@@ -8,7 +8,7 @@ async function questionsServer(){
 		const response = await fetch(host);
 		const questions = await response.json();
 		questionsserver = JSON.stringify(questions);
-		console.log(questionsserver)
+//		console.log(questionsserver)
 		localStorage.setItem(storage+'.datapersonality',questionsserver);
 }
 if(!typeof localStorage[storage+".datapersonality"] === 'undefined'){  
@@ -113,7 +113,7 @@ function showquestion(i,questions){
 //	$$("#AnswerB").attr('onclick',nextQuestionB);
 	$$("#AnswerB").attr('style',gotData['questions'][i]['color']);
 	//$$("#prevQuestion").attr('onclick',prevQuestion);
-	console.log($$("#nextQues").attr("onclick"));
+//	console.log($$("#nextQues").attr("onclick"));
 	}
 }
 
