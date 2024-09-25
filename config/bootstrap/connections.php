@@ -56,7 +56,7 @@ Connections::add('defaultMySQL', [
 	'type' => 'database',
 	'adapter' => 'MySql',
 	'host' => 'localhost',
-	'login' => 'rd_desk',
+	'login' => 'root',
 //	'password' => 'BQqX7crhvr',
 	'password' => '!gj1hm13490210Ahd',
 	'database' => 'rd_desk'
