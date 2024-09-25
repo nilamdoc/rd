@@ -8,7 +8,7 @@ async function questionsServer(){
 		const response = await fetch(host);
 		const questions = await response.json();
 		questionsserver = JSON.stringify(questions);
-//		console.log(questionsserver)
+		console.log(questionsserver)
 		localStorage.setItem(storage+'.datapersonality',questionsserver);
 }
 if(!typeof localStorage[storage+".datapersonality"] === 'undefined'){  
