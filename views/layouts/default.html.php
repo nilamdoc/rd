@@ -17,13 +17,13 @@
 </head>
 <body class="view-main" id="app">
 	<div class=" Sans s18 ">
-	<?php echo $this->_render('element', 'header');?>
+	<!--<?php echo $this->_render('element', 'header');?>-->
 		<?php echo $this->content(); ?>
 	<hr>
 	<?php echo $this->_render('element', 'footer');?>
 	</div>
 </body>
 <script>
-Start();
+//Start();
 </script>
 </html>

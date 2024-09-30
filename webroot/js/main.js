@@ -44,7 +44,7 @@ var app = new Framework7({
    closeTimeout: 3000,
    closeButton: true,
   },
- // routes: routes,
+  routes: routes,
    panel: {
     swipe: true,
   },
