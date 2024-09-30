@@ -1,5 +1,8 @@
-<div style="background-image:url('../img/RDimage.png');height:1000px" class="text-align-center ">
+<div style="background-image:url('../img/RDimage.png'); background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+height:800" class="text-align-center ">
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<img src="../img/RuchiDoctor.png"><br>
-<img src="../img/WhoYouAre.png">
+<img src="../img/RuchiDoctor.png"><br><br>
+<img src="../img/WhoYouAre.png"><br><br><br><br>
 </div>
