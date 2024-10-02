@@ -72,6 +72,7 @@ var radio = 1;
  for (let i = 1; i < 145; i++) {
   console.log("radio"+i)
 } 
+	return false;
 }
 function checkEmail(email){
 const validateEmail = (email) => {

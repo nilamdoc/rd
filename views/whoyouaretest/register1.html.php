@@ -28,7 +28,7 @@
 		
 		</div><br>
 		<?php }?>
-		<input type="submit" value="Next" style="height:50px; background-color:red;color:white;border:1px solid red;width:180px;font-size:24px;font-weight:bold;cursor:pointer;" onclick="checkAnswer();">
+		<input type="submit" value="Next" style="height:50px; background-color:red;color:white;border:1px solid red;width:180px;font-size:24px;font-weight:bold;cursor:pointer;" onclick="return checkAnswer();">
 		<input type="text" value="<?php echo $email?>" name="email" id="email">
 </form>
 	  </div>
