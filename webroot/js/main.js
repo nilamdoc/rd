@@ -66,6 +66,13 @@ function goto(div){
 	
 }
 
+function checkAnswer(){
+console.log(1)
+var radio = 1;
+ for (let i = 1; i < 145; i++) {
+  console.log("radio"+i)
+} 
+}
 function checkEmail(email){
 const validateEmail = (email) => {
   return String(email)

@@ -15,11 +15,21 @@ class WhoyouaretestController extends \lithium\action\Controller {
 
 	public function index(){
 		
-		$questions = Ruchidoctor_personalitytests::find('all',array('order'=>array('Question'=>'ASC'))); 
+		$questions = Ruchidoctor_personalitytests::find('all',array('order'=>array('id'=>'ASC'))); 
 //		return $this->render(array('json' => array("success"=>"Yes",'questions'=>$questions)));
 		
 	}
 	
-	public function tests(){}
+	public function register(){
+//		var_dump($this->request->data);
+		$email = $this->request->data['email'];
+		return compact("email");
+	}
+	public function register1(){
+//		var_dump($this->request->data);
+		$questions = Ruchidoctor_personalitytests::find('all',array('order'=>array('Question'=>'ASC'))); 
+		$email = $this->request->data['email'];
+		return compact("email","questions");
+	}
 }
 ?>
