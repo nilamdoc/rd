@@ -27,9 +27,19 @@ class WhoyouaretestController extends \lithium\action\Controller {
 	}
 	public function register1(){
 //		var_dump($this->request->data);
-		$questions = Ruchidoctor_personalitytests::find('all',array('limit'=>12),array('order'=>array('Question'=>'ASC'))); 
+		$questions = Ruchidoctor_personalitytests::find('all',array('limit'=>144),array('order'=>array('Question'=>'ASC'))); 
 		$email = $this->request->data['email'];
 		return compact("email","questions");
 	}
+	
+	public function action(){
+		if($this->request->data){
+		 	$add = ruchidoctor_users::create();
+			$add->save($this->request->data);
+//		$questions = Ruchidoctor_personalitytests::find('all',array('order'=>array('Question'=>'ASC'))); 
+//		return $this->render(array('json' => array("success"=>"Yes",'questions'=>$questions)));
+		}
+	}
+
 }
 ?>
