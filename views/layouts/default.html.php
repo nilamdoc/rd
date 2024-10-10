@@ -24,6 +24,6 @@
 	</div>
 </body>
 <script>
-//Start();
+Start();
 </script>
 </html>

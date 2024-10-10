@@ -1,4 +1,8 @@
 // main.js
+var $$ = Dom7;
+var host = window.location.protocol +'//' +window.location.host  + '/personality' + '/';
+var storage = 'npt';
+
 var app = new Framework7({
   root: '#app',
   init: true,
@@ -59,6 +63,20 @@ var app = new Framework7({
  });
 function Start(){
 //	console.log("hi");
+	localStorage.removeItem(storage+".Result");
+	localStorage.removeItem(storage+".Info.name");
+	localStorage.removeItem(storage+".Info.email");
+	localStorage.removeItem(storage+".Info.mobile");
+	localStorage.removeItem(storage+".Info.gender");
+	localStorage.setItem(storage+'.A',0);
+	localStorage.setItem(storage+'.B',0);
+	localStorage.setItem(storage+'.C',0);
+	localStorage.setItem(storage+'.D',0);
+	localStorage.setItem(storage+'.E',0);
+	localStorage.setItem(storage+'.F',0);
+	localStorage.setItem(storage+'.G',0);
+	localStorage.setItem(storage+'.H',0);
+	localStorage.setItem(storage+'.I',0);
 	
 }
 function goto(div){
@@ -67,11 +85,94 @@ function goto(div){
 }
 
 function checkAnswer(){
-console.log(1)
-var radio = 1;
- for (let i = 1; i < 145; i++) {
-  console.log("radio"+i)
-} 
+	localStorage.setItem(storage+'.A',0);
+	localStorage.setItem(storage+'.B',0);
+	localStorage.setItem(storage+'.C',0);
+	localStorage.setItem(storage+'.D',0);
+	localStorage.setItem(storage+'.E',0);
+	localStorage.setItem(storage+'.F',0);
+	localStorage.setItem(storage+'.G',0);
+	localStorage.setItem(storage+'.H',0);
+	localStorage.setItem(storage+'.I',0);
+	
+	
+	
+ for (let i = 1; i < 145; i++){ 
+	 var Radio = "radio"+i;
+
+var radios = document.getElementsByName(Radio);
+	
+for (var i = 0, length = radios.length; i < length; i++) {
+  if (radios[i].checked) {
+    // do whatever you want with the checked radio
+    alert(radios[i].value);
+
+    // only one radio can be logically checked, don't check the rest
+    break;
+  }
+}
+	
+ }
+	
+	
+	
+	
+	
+	
+ for (let i = 1; i < 145; i++){ 
+	 var Radio = "radio"+i;
+
+var radios = document.getElementsByName(Radio);
+
+
+
+
+for (var j = 0, length = radios.length; j < length; j++) {
+  if (radios[j].checked) {
+    // do whatever you want with the checked radio
+
+		var answer = radios[j].value;
+		switch(answer) {
+  case "A":
+			localStorage.setItem(storage+'.A',parseInt(localStorage[storage+'.A'])+1);
+    break;
+  case "B":
+			localStorage.setItem(storage+'.B',parseInt(localStorage[storage+'.B'])+1);
+		break;
+  case "C":
+			localStorage.setItem(storage+'.C',parseInt(localStorage[storage+'.C'])+1);
+		break;
+  case "D":
+			localStorage.setItem(storage+'.D',parseInt(localStorage[storage+'.D'])+1);
+			break;
+  case "E":
+			localStorage.setItem(storage+'.E',parseInt(localStorage[storage+'.E'])+1);
+			break;
+  case "F":
+			localStorage.setItem(storage+'.F',parseInt(localStorage[storage+'.F'])+1);
+			break;
+  case "G":
+			localStorage.setItem(storage+'.G',parseInt(localStorage[storage+'.G'])+1);
+			break;
+  case "H":
+			localStorage.setItem(storage+'.H',parseInt(localStorage[storage+'.H'])+1);
+			break;
+  case "I":
+			localStorage.setItem(storage+'.I',parseInt(localStorage[storage+'.I'])+1);
+			break;
+  default:
+			break;
+    // code block
+	
+	};
+
+    // only one radio can be logically checked, don't check the rest
+    break;
+  }		
+}
+
+
+ } 
 	return false;
 }
 function checkEmail(email){

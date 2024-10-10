@@ -3,7 +3,7 @@
 <div class="block"><br>
 <img src="../img/steps.png"><br><br><br><br>
 		<div class="" style="margin:0 auto;  text-align: left;">
-<form method="post" action="/whoyouaretest/register1">
+<form method="post" action="/whoyouaretest/action">
 
 		<?php foreach($questions as $q) {?>
 
@@ -12,7 +12,7 @@
 
 		<div class="center" style="background-image:url('../img/shade 1.png'); ">
 		<label class="container">
-			<input type="radio"  name="radio<?=$q->{'question'}?>"  value="<?=$q->{'AA'}?>"/>
+			<input type="radio"  name="radio<?=$q->{'question'}?>" id="radio<?=$q->{'question'}?><?=$q->{'AA'}?>"  value="<?=$q->{'AA'}?>"/>
 			<?=$q->{'QA'}?>
 		<span class="checkmark"></span>
 		</label>
@@ -20,15 +20,15 @@
 	
 		<div class="center" style="background-image:url('../img/shade 2.png'); ">
 		<label class="container">
-			<input type="radio"  name="radio<?=$q->{'question'}?>"  value="<?=$q->{'AB'}?>"/>
+			<input type="radio"  name="radio<?=$q->{'question'}?>" id="radio<?=$q->{'question'}?><?=$q->{'AB'}?>" value="<?=$q->{'AB'}?>"/>
 			<?=$q->{'QB'}?>
-		<span class="checkmark"></span>
+			<span class="checkmark"></span>
 		</label>
 		</div>
 		
 		</div><br>
 		<?php }?>
-		<input type="submit" value="Next" style="height:50px; background-color:red;color:white;border:1px solid red;width:180px;font-size:24px;font-weight:bold;cursor:pointer;" onclick="return checkAnswer();">
+		<input type="submit" value="Next" style="height:50px; background-color:red;color:white;border:1px solid red;width:180px;font-size:24px;font-weight:bold;cursor:pointer;" onclick="return checkAnswer();">Next</input>
 		<input type="text" value="<?php echo $email?>" name="email" id="email">
 </form>
 	  </div>
