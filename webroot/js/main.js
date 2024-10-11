@@ -102,13 +102,16 @@ function checkAnswer(){
 
 var radios = document.getElementsByName(Radio);
 	
-for (var i = 0, length = radios.length; i < length; i++) {
-  if (radios[i].checked) {
+for (var j = 0, length = radios.length; j < length; j++) {
+  if (radios[j].checked) {
     // do whatever you want with the checked radio
-    alert(radios[i].value);
+    //alert(radios[j].value);
 
     // only one radio can be logically checked, don't check the rest
     break;
+  }else{
+	  break;
+	  return false;
   }
 }
 	
@@ -169,6 +172,22 @@ for (var j = 0, length = radios.length; j < length; j++) {
     // only one radio can be logically checked, don't check the rest
     break;
   }		
+  $$("#whoyouareresult").show();
+  $$("A").value(parseInt(localStorage[storage+'.A']));
+  $$("B").value(parseInt(localStorage[storage+'.B']));
+  $$("C").value(parseInt(localStorage[storage+'.C']));
+  $$("D").value(parseInt(localStorage[storage+'.D'])); 
+  $$("E").value(parseInt(localStorage[storage+'.E']));
+  $$("F").value(parseInt(localStorage[storage+'.F']));
+  $$("G").value(parseInt(localStorage[storage+'.G']));
+  $$("H").value(parseInt(localStorage[storage+'.H']));
+  $$("I").value(parseInt(localStorage[storage+'.I']));
+  
+  
+  
+  
+  $$("#whoyouaretest").hide();
+  return false;
 }
 
 

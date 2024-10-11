@@ -2,8 +2,8 @@
 </script>
 <div class="block"><br>
 <img src="../img/steps.png"><br><br><br><br>
-		<div class="" style="margin:0 auto;  text-align: left;">
-<form method="post" action="/whoyouaretest/action">
+		<div id="whoyouaretest" class="" style="margin:0 auto;  text-align: left;">
+<form method="post" >
 
 		<?php foreach($questions as $q) {?>
 
@@ -28,10 +28,37 @@
 		
 		</div><br>
 		<?php }?>
-		<input type="submit" value="Next" style="height:50px; background-color:red;color:white;border:1px solid red;width:180px;font-size:24px;font-weight:bold;cursor:pointer;" onclick="return checkAnswer();">Next</input>
+		<input type="submit" value="Next" style="height:50px; background-color:red;color:white;border:1px solid red;width:180px;font-size:24px;font-weight:bold;cursor:pointer;" onclick="return checkAnswer();"></input>
 		<input type="text" value="<?php echo $email?>" name="email" id="email">
 </form>
 	  </div>
+	  <div id="whoyouareresult" style="display:none">
+	  
+	  <form action="/whoyouare/action" method="post" class="list list-strong-ios list-dividers-ios list-outline-ios">
+	  <label for="fname">First name:</label><br>
+	  <input type="text" id="fname" name="fname" value="" required="required"><br>
+	  <label for="lname">Last name:</label><br>
+	  <input type="text" id="lname" name="lname" value="" required="required"><br>
+	  <label for="mobile">Mobile #:</label><br>
+	  <input type="text" id="mobile" name="mobile" value="" required="required"><br>
+	  <label for="email">Email:</label><br>
+	  <input type="text" id="email" name="email" value="<?php echo $email?>" required="required"><br><br>
+	  <input type="hidden" id="A" name="A" value="" required="required">
+	  <input type="hidden" id="B" name="B" value="" required="required">
+	  <input type="hidden" id="C" name="C" value="" required="required">
+	  <input type="hidden" id="D" name="D" value="" required="required">
+	  <input type="hidden" id="E" name="E" value="" required="required">
+	  <input type="hidden" id="F" name="F" value="" required="required">
+	  <input type="hidden" id="G" name="G" value="" required="required">
+	  <input type="hidden" id="H" name="H" value="" required="required">
+	  <input type="hidden" id="I" name="I" value="" required="required">
+	  <input type="hidden" id="TotalAll" name="TotalAll" value="" required="required">
+	  <input type="hidden" id="ResultAll" name="ResultAll" value="" required="required">
+	  <input type="hidden" id="ResultNum" name="ResultNum" value="" required="required">
+	  
+	  <input type="submit" value="Submit">
+  </form> 
+	</div>
 </div>
 <style>
 .center {
