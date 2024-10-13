@@ -60,7 +60,8 @@
 	  <input type="hidden" id="I" name="I" value="" required="required">
 	  <input type="hidden" id="TotalAll" name="TotalAll" value="" required="required">
 	  <input type="hidden" id="ResultAll" name="ResultAll" value="" required="required">
-	  <input type="hidden" id="ResultNum" name="ResultNum" value="" required="required">
+	  Result
+	  <input type="text" id="ResultNum" name="ResultNum" value="" required="required">
 	  <div id="CountA" style="display:none" >0</div>
 		   <div id="CountB" style="display:none" >0</div>
 		   <div id="CountC" style="display:none" >0</div>
