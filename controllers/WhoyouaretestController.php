@@ -34,7 +34,7 @@ class WhoyouaretestController extends \lithium\action\Controller {
 	
 	public function action(){
 		if($this->request->data){
-		 	$add = ruchidoctor_users::create();
+		 	$add = Ruchidoctor_users::create();
 			$add->save($this->request->data);
 //		$questions = Ruchidoctor_personalitytests::find('all',array('order'=>array('Question'=>'ASC'))); 
 //		return $this->render(array('json' => array("success"=>"Yes",'questions'=>$questions)));
