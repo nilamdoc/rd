@@ -27,7 +27,7 @@ class WhoyouaretestController extends \lithium\action\Controller {
 	}
 	public function register1(){
 //		var_dump($this->request->data);
-		$questions = Ruchidoctor_personalitytests::find('all',array('limit'=>144),array('order'=>array('Question'=>'ASC'))); 
+		$questions = Ruchidoctor_personalitytests::find('all',array('limit'=>36),array('order'=>array('Question'=>'ASC'))); 
 		$email = $this->request->data['email'];
 		return compact("email","questions");
 	}

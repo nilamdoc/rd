@@ -3,32 +3,33 @@
 <div class="block"><br>
 <img src="../img/steps.png"><br><br><br><br>
 		<div id="whoyouaretest" class="" style="margin:0 auto;  text-align: left;">
-<form method="post" >
+<form method="" >
 
 		<?php foreach($questions as $q) {?>
 
-		<div class="grid-container" style="height:120px">
-        <div class="center" style="width:50px"><?=$q->{'question'}?>.</div>
+		<table class="" style="width:100vw">
+			<tr>
+        <td class="center" style="width:30px"><?=$q->{'question'}?>.</td>
 
-		<div class="center" style="background-image:url('../img/shade 1.png'); ">
+		<td class="" style="background-image:url('../img/shade 1.png');  background-position: center; /* Center the image */;width:45vw ;border: 1px solid gray">
 		<label class="container">
 			<input type="radio"  name="radio<?=$q->{'question'}?>" id="radio<?=$q->{'question'}?><?=$q->{'AA'}?>"  value="<?=$q->{'AA'}?>"/>
 			<?=$q->{'QA'}?>
 		<span class="checkmark"></span>
 		</label>
-		</div>
+		</td>
 	
-		<div class="center" style="background-image:url('../img/shade 2.png'); ">
+		<td class="" style="background-image:url('../img/shade 2.png') ;  background-position: center; /* Center the image */;width:45vw;border: 1px solid gray">
 		<label class="container">
 			<input type="radio"  name="radio<?=$q->{'question'}?>" id="radio<?=$q->{'question'}?><?=$q->{'AB'}?>" value="<?=$q->{'AB'}?>"/>
 			<?=$q->{'QB'}?>
 			<span class="checkmark"></span>
 		</label>
-		</div>
-		
-		</div><br>
+		</td>
+			</tr>
+		</table><br>
 		<?php }?>
-		<input type="submit" value="Next" style="height:50px; background-color:red;color:white;border:1px solid red;width:180px;font-size:24px;font-weight:bold;cursor:pointer;" onclick="return checkAnswer();"></input>
+		<input  value="Next" style="height:50px; background-color:red;color:white;border:1px solid red;width:180px;font-size:24px;font-weight:bold;cursor:pointer;" onclick="return checkAnswer();"></input>
 		<input type="text" value="<?php echo $email?>" name="email" id="email">
 </form>
 	  </div>
@@ -55,12 +56,27 @@
 	  <input type="hidden" id="TotalAll" name="TotalAll" value="" required="required">
 	  <input type="hidden" id="ResultAll" name="ResultAll" value="" required="required">
 	  <input type="hidden" id="ResultNum" name="ResultNum" value="" required="required">
-	  
+	  <div id="CountA" style="display:none" >0</div>
+		   <div id="CountB" style="display:none" >0</div>
+		   <div id="CountC" style="display:none" >0</div>
+		   <div id="CountD" style="display:none" >0</div>
+		   <div id="CountE" style="display:none" >0</div>
+		   <div id="CountF" style="display:none" >0</div>
+		   <div id="CountG" style="display:none" >0</div>
+		   <div id="CountH" style="display:none" >0</div>
+		   <div id="CountI" style="display:none" >0</div>
+		   <div id="AnswerAA"  style="display:none"  >0</div>
+		   <div id="AnswerBB"  style="display:none" >0</div>
+		   <div id="Total"  style="display:none" >0</div>
+
 	  <input type="submit" value="Submit">
   </form> 
 	</div>
 </div>
 <style>
+table {
+  border-spacing: 10px;
+}
 .center {
   display: flex;
   justify-content: center;
@@ -81,9 +97,13 @@
   display: block;
   position: relative;
   padding-left: 35px;
+  padding-right: 30px;
+  
+  margin-top: 12px;
+  
   margin-bottom: 12px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 20px;
   font-weight:bold;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -111,7 +131,7 @@
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+  background-color: ;
 }
 
 /* When the radio button is checked, add a blue background */
