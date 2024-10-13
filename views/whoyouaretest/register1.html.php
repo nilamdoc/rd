@@ -35,7 +35,7 @@
 	  </div>
 	  <div id="whoyouareresult" style="display:none">
 	  
-	  <form action="/whoyouare/action" method="post" class="list list-strong-ios list-dividers-ios list-outline-ios">
+	  <form action="/whoyouaretest/action" method="post" class="list list-strong-ios list-dividers-ios list-outline-ios">
 	  <label for="fname">First name:</label><br>
 	  <input type="text" id="fname" name="fname" value="" required="required"><br>
 	  <label for="lname">Last name:</label><br>
