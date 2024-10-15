@@ -2,7 +2,7 @@
 <html>
 <head>
 	<?php echo $this->html->charset();?>
-	<title>Ruchi Doctor, Coach, Author, Networker &gt; <?php echo $this->title(); ?></title>
+	<title>Ruchi Doctor, Leader Enterpreneur and Transformational Coach <?php echo $this->title(); ?></title>
 	<?php echo $this->html->style([ 'style']); ?>
 	<link rel="stylesheet" type="text/css" href="/css/framework7-bundle.css">
 	<?php echo $this->styles(); ?>
