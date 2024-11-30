@@ -97,7 +97,7 @@ function checkAnswer(){
 	
 	
 	
- for (let i = 1; i < 145; i++){ 
+ for (let i = 1; i < 37; i++){ 
 	 var Radio = "radio"+i;
 
 var radios = document.getElementsByName(Radio);
@@ -124,7 +124,7 @@ for (var j = 0, length = radios.length; j < length; j++) {
 	
 	
 	
- for (let i = 1; i < 145; i++){ 
+ for (let i = 1; i < 37; i++){ 
 	 var Radio = "radio"+i;
 
 var radios = document.getElementsByName(Radio);
