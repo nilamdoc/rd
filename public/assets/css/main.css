@@ -504,7 +504,7 @@ section,
 # Custom Css
 --------------------------------------------------------------*/
 .main {
-  height: 85vh;
+  height: auto;
   overflow: auto; 
 }
 #hero {
