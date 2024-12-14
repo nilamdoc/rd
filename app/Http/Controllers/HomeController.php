@@ -51,7 +51,7 @@ class HomeController extends Controller
     }
     public function showQuestions()
     {
-        $questions = DB::table('rd_desk')
+        $questions = DB::table('personality_test')
             ->take(34);
         $exists = $questions->count() > 0;  // Use count to check if any records exist
         if ($exists) {
