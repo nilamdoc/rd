@@ -481,3 +481,17 @@ if (!function_exists('getQuestionsLists')) {
         ];
     }
 }
+
+if (!function_exists('pre')) {
+    /**
+     * Get formatted timestamp for creation and update.
+     *
+     * @return string
+     */
+    function pre($request)
+    {
+        echo '<pre>';
+        print_r($request);
+        exit;
+    }
+}

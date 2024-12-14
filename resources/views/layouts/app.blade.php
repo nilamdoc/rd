@@ -10,6 +10,9 @@
 
     <!-- Favicons -->
     <link href="{{ asset('images/favicon.ico') }}" rel="icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <!-- Vendor CSS Files -->
     <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
@@ -133,7 +136,49 @@
             // Initialize the first question
             showQuestion(currentQuestion);
         }
-        
+        //Timer Related Code.
+        var minutesLabel = document.getElementById("minutes");
+        var secondsLabel = document.getElementById("seconds");
+        var totalSeconds = 0;
+        var timerInterval;
+
+        // Automatically start the timer when the page loads
+        window.onload = function() {
+            startTimer();  // Start the timer as soon as the page loads
+        };
+
+        function startTimer() {
+            timerInterval = setInterval(setTime, 1000); // Runs every second
+        }
+
+        function setTime() {
+            ++totalSeconds;
+            secondsLabel.innerHTML = pad(totalSeconds % 60);
+            minutesLabel.innerHTML = pad(parseInt(totalSeconds / 60));
+
+            // Show alert if timer reaches 60 minutes (3600 seconds)
+            if (totalSeconds === 3600) {
+                clearInterval(timerInterval); // Stop the timer
+                alert("60 minutes have passed!");  // Show alert at 1 hour
+            }
+        }
+
+        function pad(val) {
+            var valString = val + "";
+            if (valString.length < 2) {
+                return "0" + valString;
+            } else {
+                return valString;
+            }
+        }
+        // When a radio button is selected
+            $(".options input[type='radio']").on("change", function() {
+                // Remove the 'selected' class from all list items
+                $(".options li").removeClass("selected");
+
+                // Add the 'selected' class to the parent <li> of the selected radio button
+                $(this).closest("li").addClass("selected");
+            });
     });
     </script>
 </body>

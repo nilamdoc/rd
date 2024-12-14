@@ -43,16 +43,16 @@ return [
             'foreign_key_constraints' => env('DB_FOREIGN_KEYS', true),
         ],
         'mongodb' => [
-        'driver'   => 'mongodb',
-        'host'     => env('MONGO_DB_HOST', '127.0.0.1'),
-        'port'     => env('MONGO_DB_PORT', 27017),
-        'database' => env('MONGO_DB_DATABASE'),
-        'username' => env('MONGO_DB_USERNAME'),
-        'password' => env('MONGO_DB_PASSWORD'),
-        'options'  => [
-            'database' => env('MONGO_DB_DATABASE'), // sets the authentication database
+            'driver'   => 'mongodb',
+            'host'     => env('DB_HOST', '127.0.0.1'),
+            'port'     => env('DB_PORT', 27017),
+            'database' => env('DB_DATABASE'),
+            'username' => env('DB_USERNAME', ''),
+            'password' => env('DB_PASSWORD', ''),
+            'options'  => [
+                'database' => env('DB_AUTH_DATABASE', 'admin') // Optional: Authentication database (default is 'admin')
+            ],
         ],
-    ],
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
