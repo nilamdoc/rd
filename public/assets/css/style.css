@@ -1,0 +1,98 @@
+.bebas {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+/* Button customization */
+.text-primary,.text-secondary{
+  color: white !important;
+}
+.button-fill {
+  font-size: 1rem;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+  width:100%;
+}
+.button {
+  display: inline-block;
+  text-align: center;
+  font-size: 1rem;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #ff1493; /* Pink color */
+  color: white;
+  text-decoration: none;
+}
+
+.button .text-primary {
+  display: block; /* Ensures each line is on its own row */
+  font-weight: bold;
+  margin-bottom: 5px; /* Adds spacing between the lines */
+}
+
+.button .text-secondary {
+  display: block;
+  font-weight: normal;
+}
+#about{
+  background-color: black; 
+  height: 100vh; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: flex-end;
+}
+#services{
+  background-color: black; 
+  height: 100vh; 
+  flex-direction: column; 
+}
+.text-static{
+  text-align: justify;
+}
+.services .video_text_div h4{
+  color:white;
+  font-size: 5rem; 
+  font-weight: bold; 
+  line-height: 1.2; 
+  width: 100%; 
+  word-wrap: break-word;
+}
+.video_text_div h1,.video_text_div h2,.video_text_div p,h2{
+  color: white;
+}
+
+@media (min-width: 1200px) {
+  .video_text_div .h1,.video_text_div h1 {
+      font-size: 6.5rem !important;
+  }
+  .video_text_div .h2,.video_text_div h2 {
+      font-size: 5rem;
+  }
+}
+
+/* Custom CSS for responsive design */
+/* .container {
+  margin-top: 50px;
+} */
+.form-container {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+}
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
