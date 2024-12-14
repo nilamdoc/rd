@@ -22,3 +22,7 @@ config\bootstrap\connections.php
 
 # Temporary files, i.e. compiled templates.
 resources/tmp/*
+vendor/*
+composer.ock
+vendor_old/*
+storage/*
