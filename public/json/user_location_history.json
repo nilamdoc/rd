@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "676086049a769a2f18062a1d"
+  },
+  "country": "India",
+  "region": "Gujarat",
+  "city": "Ahmedabad",
+  "zip": "380001",
+  "lat": 23.0276,
+  "lon": 72.5871,
+  "ip": "103.240.169.197",
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "created_at": {
+    "$date": "2024-12-16T19:56:52.802Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T19:56:52.802Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67608e529a769a2f18062a1e"
+  },
+  "country": "India",
+  "region": "Gujarat",
+  "city": "Ahmedabad",
+  "zip": "380001",
+  "lat": 23.0276,
+  "lon": 72.5871,
+  "ip": "103.240.169.197",
+  "userId": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "created_at": {
+    "$date": "2024-12-16T20:32:18.888Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:32:18.888Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6761bb6912a0ebb23d0e01e3"
+  },
+  "country": "India",
+  "region": "Gujarat",
+  "city": "Ahmedabad",
+  "zip": "380001",
+  "lat": 23.0276,
+  "lon": 72.5871,
+  "ip": "103.240.169.245",
+  "userId": "$2y$12$BYIJde0tFrRWFQYqqmXmLeWFzptA7Uyt6rK4xOaxGFHKKCNhZkphW",
+  "created_at": {
+    "$date": "2024-12-17T17:56:57.372Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-17T17:56:57.372Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6761bc0f12a0ebb23d0e01e4"
+  },
+  "country": "India",
+  "region": "Gujarat",
+  "city": "Ahmedabad",
+  "zip": "380001",
+  "lat": 23.0276,
+  "lon": 72.5871,
+  "ip": "103.240.169.245",
+  "userId": "$2y$12$BYIJde0tFrRWFQYqqmXmLeWFzptA7Uyt6rK4xOaxGFHKKCNhZkphW",
+  "created_at": {
+    "$date": "2024-12-17T17:59:43.883Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-17T17:59:43.883Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6761bc3912a0ebb23d0e01e5"
+  },
+  "country": "India",
+  "region": "Gujarat",
+  "city": "Ahmedabad",
+  "zip": "380001",
+  "lat": 23.0276,
+  "lon": 72.5871,
+  "ip": "103.240.169.245",
+  "userId": "$2y$12$BYIJde0tFrRWFQYqqmXmLeWFzptA7Uyt6rK4xOaxGFHKKCNhZkphW",
+  "created_at": {
+    "$date": "2024-12-17T18:00:25.655Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-17T18:00:25.655Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6761bc4712a0ebb23d0e01e6"
+  },
+  "country": "India",
+  "region": "Gujarat",
+  "city": "Ahmedabad",
+  "zip": "380001",
+  "lat": 23.0276,
+  "lon": 72.5871,
+  "ip": "103.240.169.245",
+  "userId": "$2y$12$BYIJde0tFrRWFQYqqmXmLeWFzptA7Uyt6rK4xOaxGFHKKCNhZkphW",
+  "created_at": {
+    "$date": "2024-12-17T18:00:39.079Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-17T18:00:39.079Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6761bc5112a0ebb23d0e01e7"
+  },
+  "country": "India",
+  "region": "Gujarat",
+  "city": "Ahmedabad",
+  "zip": "380001",
+  "lat": 23.0276,
+  "lon": 72.5871,
+  "ip": "103.240.169.245",
+  "userId": "$2y$12$BYIJde0tFrRWFQYqqmXmLeWFzptA7Uyt6rK4xOaxGFHKKCNhZkphW",
+  "created_at": {
+    "$date": "2024-12-17T18:00:49.929Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-17T18:00:49.929Z"
+  }
+}]

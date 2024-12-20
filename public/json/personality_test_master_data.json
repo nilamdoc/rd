@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "676087a8666ea3ea5f9028f2"
+  },
+  "name": "Reformer",
+  "description": "You are principled and morally grounded, guided by a clear sense of what is right and fair. You value structure, organization, and precision, with a constant drive to enhance and perfect your surroundings. At times, you may wrestle with feelings of frustration or impatience.",
+  "qid": 1
+},
+{
+  "_id": {
+    "$oid": "676087a8666ea3ea5f9028f3"
+  },
+  "name": "Helper",
+  "description": "You are compassionate, giving, and emotionally expressive, deeply valuing connection and relationships. Your genuine desire to support and nurture others sometimes leads to prioritizing their needs over your own, which can result in challenges with setting boundaries and recognizing your own desires.",
+  "qid": 2
+},
+{
+  "_id": {
+    "$oid": "676087a8666ea3ea5f9028f4"
+  },
+  "name": "Achiever",
+  "description": "You are goal-focused, versatile, and motivated, with a strong drive to excel and achieve. Your ambition and energy make you highly effective and resourceful, though at times, you may place too much emphasis on how you are perceived by others and on external validation.",
+  "qid": 3
+},
+{
+  "_id": {
+    "$oid": "676087a8666ea3ea5f9028f5"
+  },
+  "name": "Individualist",
+  "description": "You are deeply intuitive, emotionally vibrant, and uniquely creative, with a flair for personal expression and authenticity. While your sensitivity and introspection are strengths, they can sometimes lead to moments of moodiness or a tendency to dwell on personal challenges.",
+  "qid": 4
+},
+{
+  "_id": {
+    "$oid": "676087a8666ea3ea5f9028f6"
+  },
+  "name": "Investigator",
+  "description": "You are insightful, imaginative, and highly independent, with a natural ability to focus deeply and develop intricate ideas or skills. Your innovative mindset and creativity shine, though you may occasionally become absorbed in your thoughts or private inner world.",
+  "qid": 5
+},
+{
+  "_id": {
+    "$oid": "676087a8666ea3ea5f9028f7"
+  },
+  "name": "Sentinel",
+  "description": "You are dedicated, security-focused, and dependable, with a strong sense of responsibility and a talent for anticipating challenges. Your reliability and collaborative nature make you an excellent problem-solver, though at times, your cautious approach may lead to stress or moments of defensiveness.",
+  "qid": 6
+},
+{
+  "_id": {
+    "$oid": "676087a8666ea3ea5f9028f8"
+  },
+  "name": "Enthusiast",
+  "description": "You are energetic, enthusiastic, and adaptable, with a natural curiosity for new and exciting experiences. Your spontaneity and zest for life are infectious, though you may occasionally find it challenging to slow down, leading to moments of impatience or impulsivity.",
+  "qid": 7
+},
+{
+  "_id": {
+    "$oid": "676087a8666ea3ea5f9028f9"
+  },
+  "name": "Challenger",
+  "description": "You are confident, assertive, and strong-willed, with a natural ability to take charge and make decisive choices. Your determination to shape your environment and protect those around you is a significant strength, though at times, you may struggle with managing intense emotions and embracing vulnerability.",
+  "qid": 8
+},
+{
+  "_id": {
+    "$oid": "676087a8666ea3ea5f9028fa"
+  },
+  "name": "Peacemaker",
+  "description": "You are a calm, accommodating, and supportive individual who values harmony and seeks to create an environment of ease and cooperation. You excel at diffusing tension and fostering a sense of comfort for those around you. While you have a natural ability to simplify situations and avoid unnecessary conflict, you may sometimes overlook challenges or resist change, especially when it feels disruptive. However, this steady and reassuring nature allows you to approach life with patience and resilience.",
+  "qid": 9
+}]

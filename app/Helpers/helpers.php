@@ -1,218 +1,9 @@
 <?php
 
-if (!function_exists('getCountryNames')) {
-    /**
-     * Get formatted timestamp for creation and update.
-     *
-     * @return string
-     */
-    function getCountryNames()
-    {
-        return [
-            'AF' => 'Afghanistan',
-            'AL' => 'Albania',
-            'DZ' => 'Algeria',
-            'AD' => 'Andorra',
-            'AO' => 'Angola',
-            'AG' => 'Antigua and Barbuda',
-            'AR' => 'Argentina',
-            'AM' => 'Armenia',
-            'AU' => 'Australia',
-            'AT' => 'Austria',
-            'BS' => 'Bahamas',
-            'BH' => 'Bahrain',
-            'BD' => 'Bangladesh',
-            'BB' => 'Barbados',
-            'BY' => 'Belarus',
-            'BE' => 'Belgium',
-            'BZ' => 'Belize',
-            'BJ' => 'Benin',
-            'BT' => 'Bhutan',
-            'BO' => 'Bolivia',
-            'BA' => 'Bosnia and Herzegovina',
-            'BW' => 'Botswana',
-            'BR' => 'Brazil',
-            'BN' => 'Brunei',
-            'BG' => 'Bulgaria',
-            'BF' => 'Burkina Faso',
-            'BI' => 'Burundi',
-            'CV' => 'Cabo Verde',
-            'KH' => 'Cambodia',
-            'CM' => 'Cameroon',
-            'CA' => 'Canada',
-            'CF' => 'Central African Republic',
-            'TD' => 'Chad',
-            'CL' => 'Chile',
-            'CN' => 'China',
-            'CO' => 'Colombia',
-            'KM' => 'Comoros',
-            'CD' => 'Democratic Republic of the Congo',
-            'CG' => 'Republic of the Congo',
-            'CR' => 'Costa Rica',
-            'HR' => 'Croatia',
-            'CU' => 'Cuba',
-            'CY' => 'Cyprus',
-            'CZ' => 'Czech Republic',
-            'DK' => 'Denmark',
-            'DJ' => 'Djibouti',
-            'DM' => 'Dominica',
-            'DO' => 'Dominican Republic',
-            'TL' => 'East Timor',
-            'EC' => 'Ecuador',
-            'EG' => 'Egypt',
-            'SV' => 'El Salvador',
-            'GQ' => 'Equatorial Guinea',
-            'ER' => 'Eritrea',
-            'EE' => 'Estonia',
-            'SZ' => 'Eswatini',
-            'ET' => 'Ethiopia',
-            'FJ' => 'Fiji',
-            'FI' => 'Finland',
-            'FR' => 'France',
-            'GA' => 'Gabon',
-            'GM' => 'Gambia',
-            'GE' => 'Georgia',
-            'DE' => 'Germany',
-            'GH' => 'Ghana',
-            'GR' => 'Greece',
-            'GD' => 'Grenada',
-            'GT' => 'Guatemala',
-            'GN' => 'Guinea',
-            'GW' => 'Guinea-Bissau',
-            'GY' => 'Guyana',
-            'HT' => 'Haiti',
-            'HN' => 'Honduras',
-            'HU' => 'Hungary',
-            'IS' => 'Iceland',
-            'IN' => 'India',
-            'ID' => 'Indonesia',
-            'IR' => 'Iran',
-            'IQ' => 'Iraq',
-            'IE' => 'Ireland',
-            'IL' => 'Israel',
-            'IT' => 'Italy',
-            'CI' => 'Ivory Coast',
-            'JM' => 'Jamaica',
-            'JP' => 'Japan',
-            'JO' => 'Jordan',
-            'KZ' => 'Kazakhstan',
-            'KE' => 'Kenya',
-            'KI' => 'Kiribati',
-            'KP' => 'North Korea',
-            'KR' => 'South Korea',
-            'KW' => 'Kuwait',
-            'KG' => 'Kyrgyzstan',
-            'LA' => 'Laos',
-            'LV' => 'Latvia',
-            'LB' => 'Lebanon',
-            'LS' => 'Lesotho',
-            'LR' => 'Liberia',
-            'LY' => 'Libya',
-            'LI' => 'Liechtenstein',
-            'LT' => 'Lithuania',
-            'LU' => 'Luxembourg',
-            'MG' => 'Madagascar',
-            'MW' => 'Malawi',
-            'MY' => 'Malaysia',
-            'MV' => 'Maldives',
-            'ML' => 'Mali',
-            'MT' => 'Malta',
-            'MH' => 'Marshall Islands',
-            'MR' => 'Mauritania',
-            'MU' => 'Mauritius',
-            'MX' => 'Mexico',
-            'FM' => 'Federated States of Micronesia',
-            'MD' => 'Moldova',
-            'MC' => 'Monaco',
-            'MN' => 'Mongolia',
-            'ME' => 'Montenegro',
-            'MA' => 'Morocco',
-            'MZ' => 'Mozambique',
-            'MM' => 'Myanmar',
-            'NA' => 'Namibia',
-            'NR' => 'Nauru',
-            'NP' => 'Nepal',
-            'NL' => 'Netherlands',
-            'NZ' => 'New Zealand',
-            'NI' => 'Nicaragua',
-            'NE' => 'Niger',
-            'NG' => 'Nigeria',
-            'MK' => 'North Macedonia',
-            'NO' => 'Norway',
-            'OM' => 'Oman',
-            'PK' => 'Pakistan',
-            'PW' => 'Palau',
-            'PA' => 'Panama',
-            'PG' => 'Papua New Guinea',
-            'PY' => 'Paraguay',
-            'PE' => 'Peru',
-            'PH' => 'Philippines',
-            'PL' => 'Poland',
-            'PT' => 'Portugal',
-            'QA' => 'Qatar',
-            'RO' => 'Romania',
-            'RU' => 'Russia',
-            'RW' => 'Rwanda',
-            'KN' => 'Saint Kitts and Nevis',
-            'LC' => 'Saint Lucia',
-            'VC' => 'Saint Vincent and the Grenadines',
-            'WS' => 'Samoa',
-            'SM' => 'San Marino',
-            'ST' => 'São Tomé and Príncipe',
-            'SA' => 'Saudi Arabia',
-            'SN' => 'Senegal',
-            'RS' => 'Serbia',
-            'SC' => 'Seychelles',
-            'SL' => 'Sierra Leone',
-            'SG' => 'Singapore',
-            'SK' => 'Slovakia',
-            'SI' => 'Slovenia',
-            'SB' => 'Solomon Islands',
-            'SO' => 'Somalia',
-            'ZA' => 'South Africa',
-            'SS' => 'South Sudan',
-            'ES' => 'Spain',
-            'LK' => 'Sri Lanka',
-            'SD' => 'Sudan',
-            'SR' => 'Suriname',
-            'SE' => 'Sweden',
-            'CH' => 'Switzerland',
-            'SY' => 'Syria',
-            'TW' => 'Taiwan',
-            'TJ' => 'Tajikistan',
-            'TZ' => 'Tanzania',
-            'TH' => 'Thailand',
-            'TG' => 'Togo',
-            'TO' => 'Tonga',
-            'TT' => 'Trinidad and Tobago',
-            'TN' => 'Tunisia',
-            'TR' => 'Turkey',
-            'TM' => 'Turkmenistan',
-            'TV' => 'Tuvalu',
-            'UG' => 'Uganda',
-            'UA' => 'Ukraine',
-            'AE' => 'United Arab Emirates',
-            'GB' => 'United Kingdom',
-            'US' => 'United States',
-            'UY' => 'Uruguay',
-            'UZ' => 'Uzbekistan',
-            'VU' => 'Vanuatu',
-            'VA' => 'Vatican City',
-            'VE' => 'Venezuela',
-            'VN' => 'Vietnam',
-            'YE' => 'Yemen',
-            'ZM' => 'Zambia',
-            'ZW' => 'Zimbabwe'
-        ];
-    }
-}
+use Illuminate\Http\Request;
+use Carbon\Carbon;
 
 if (!function_exists('getCountryCodeWithPhoneCodes')) {
-    /**
-     * Get formatted timestamp for creation and update.
-     *
-     * @return string
-     */
     function getCountryCodeWithPhoneCodes()
     {
         return [
@@ -414,74 +205,6 @@ if (!function_exists('getCountryCodeWithPhoneCodes')) {
     }
 }
 
-if (!function_exists('getQuestionsLists')) {
-    /**
-     * Get formatted timestamp for creation and update.
-     *
-     * @return string
-     */
-    function getQuestionsLists()
-    {
-        return [
-            [
-                "id" => "1",
-                "question" => "1",
-                "QA" => "I've been romantic and imaginative.",
-                "AA" => "E",
-                "QB" => "I've been pragmatic and down to earth.",
-                "AB" => "B",
-                "HA" => "मैं रोमांटिक और कल्पनाशील रहा हूं",
-                "HB" => "मैं व्यावहारिक और जमीन से जुड़ा हुआ हूं",
-                "color" => "border:3px solid gray"
-            ],
-            [
-                "id" => "2",
-                "question" => "2",
-                "QA" => "I have tended to take on confrontations.",
-                "AA" => "G",
-                "QB" => "I have tended to avoid confrontations.",
-                "AB" => "A",
-                "HA" => "मैं टकराव मोल लेने की प्रवृत्ति रखता हूं",
-                "HB" => "मैं टकराव से बचने की प्रवृत्ति रखता हूं",
-                "color" => "border:3px solid gray"
-            ],
-            [
-                "id" => "3",
-                "question" => "3",
-                "QA" => "I have typically been diplomatic, charming, and ambitious.",
-                "AA" => "C",
-                "QB" => "I have typically been direct, formal, and idealistic.",
-                "AB" => "D",
-                "HA" => "मैं आमतौर पर कूटनीतिक, आकर्षक और महत्वाकांक्षी रहा हूं",
-                "HB" => "मैं आमतौर पर प्रत्यक्ष, औपचारिक और आदर्शवादी रहा हूं",
-                "color" => "border:3px solid gray"
-            ],
-            [
-                "id" => "4",
-                "question" => "4",
-                "QA" => "I have tended to be focused and intense.",
-                "AA" => "H",
-                "QB" => "I have tended to be spontaneous and fun-loving.",
-                "AB" => "I",
-                "HA" => "मैं केंद्रित और गहन रहने की प्रवृत्ति रखता हूं",
-                "HB" => "मैं सहज और मौज-मस्ती पसंद करने वाला रहा हूं",
-                "color" => "border:3px solid gray"
-            ],
-            [
-                "id" => "5",
-                "question" => "5",
-                "QA" => "I have been a hospitable person and have enjoyed welcoming new friends into my life.",
-                "AA" => "F",
-                "QB" => "I have been a private person and have not mixed much with others.",
-                "AB" => "E",
-                "HA" => "मैं एक मेहमाननवाज़ व्यक्ति रहा हूं और अपने जीवन में नए दोस्तों का स्वागत करते हुए मुझे आनंद आया है",
-                "HB" => "मैं एक निजी व्यक्ति रहा हूं और दूसरों के साथ ज्यादा घुलता-मिलता नहीं हूं",
-                "color" => "border:3px solid gray"
-            ]
-        ];
-    }
-}
-
 if (!function_exists('pre')) {
     /**
      * Get formatted timestamp for creation and update.
@@ -493,5 +216,41 @@ if (!function_exists('pre')) {
         echo '<pre>';
         print_r($request);
         exit;
+    }
+}
+
+if (!function_exists('getUserLocationDetails')) {
+    /**
+     * Get formatted timestamp for creation and update.
+     *
+     * @return string
+     */
+    function getUserLocationDetails($request,$userId)
+    {
+        $ipAddress = $request->ip();
+        try 
+        {
+            $url = "http://ip-api.com/json";
+            $locationData = json_decode(file_get_contents($url), true);
+            if ($locationData && $locationData['status'] === 'success') {
+                return [
+                    'country'       => $locationData['country'],
+                    'region'        => $locationData['regionName'],
+                    'city'          => $locationData['city'],
+                    'zip'           => $locationData['zip'],
+                    'lat'           => $locationData['lat'],
+                    'lon'           => $locationData['lon'],
+                    'ip'            => $locationData['query'],
+                    'userId'        => $userId, 
+                    'created_at'    => Carbon::now(),
+                    'updated_at'    => Carbon::now(),
+                ];
+            }
+        } catch (\Exception $e) {
+            // Handle error if geolocation fails
+            return null;
+        }
+
+        return null;
     }
 }

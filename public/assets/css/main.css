@@ -392,8 +392,14 @@ section,
 	height: 100%;
 	position: relative;
 	z-index: 1;
+	border-radius: 30px;
 }
-
+.font-weight-400{
+	font-weight: 400;
+}
+.font-weight-600{
+	font-weight: 600;
+}
 .services .service-item:before {
 	content: "";
 	position: absolute;
@@ -515,11 +521,6 @@ section,
 	font-style: normal;
 }
 
-.main {
-	height: auto;
-	overflow: auto;
-}
-
 #hero {
 	position: relative;
 	height: 100vh;
@@ -529,7 +530,7 @@ section,
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
-	height: 100%;
+	/* height: 100%; */
 }
 
 .content-bottom {
@@ -551,11 +552,20 @@ h6 {
 #quiz-container {
 	width: 100%;
 	background-color: white;
-	padding: 20px;
+	padding: 20px 20px 40px 20px; 
 	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
 }
 
+#quiz-container1 {
+    width: 100%;
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 14px 15px 18px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 28px;
+    border: 1px solid green;
+    text-align: justify;
+}
 .question-container {
 	display: none;
 	margin-bottom: 20px;
@@ -636,6 +646,15 @@ h6 {
 .options label {
 	cursor: pointer;       /* Allow the text to be clickable */
 }
+#quiz-container2 {
+    width: 100%;
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+    box-shadow: 14px 15px 18px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid green;
+    text-align: justify;
+}
 /* Responsive styling for smaller screens */
 @media (max-width: 576px) { /* Target small devices with screen width less than 576px */
     .options {
@@ -673,21 +692,18 @@ h6 {
 /* Timer CSS. */
 .timer-container {
 	text-align: center;
-	background-color: #343a40;
-	color: white;
-	padding: 14px;
-	border-radius: 20px;
-	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 200px;
-	position: absolute;
-	/* Absolute positioning */
-	top: 20px;
-	/* Adjust top margin if needed */
-	right: 42px;
-	/* Align container to the right side */
+    background-color: #343a40;
+    color: white;
+    padding: 14px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    position: absolute;
+    top: 76px;
+    right: 68px;
 }
 
 
@@ -702,5 +718,314 @@ h6 {
 	font-size: 30px;
 	color: #f0ad4e;
 }
-
+.hideClass{
+	display: none;
+}
 /* Timer CSS. */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .quiz-center{
+		height: 52vh;
+	}
+}
+@media (min-width: 320px) and (max-width: 425px) {
+	/* Your styles go here */
+	section, .section{
+		padding: 25px 0;
+	}
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+.well h2{
+	color: black;
+	line-height: 85px;
+	text-align: center;
+}
+.well a{
+	width: 100%;
+}
+.container1 {
+	max-width: 800px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 20px;
+	border:1px solid black;
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container1 h1, .container1 h2, .custom h2 {
+	text-align: center;
+	color: #0056b3;
+}
+p {
+	margin: 15px 0;
+}
+.cta-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center; /* Ensures the text is centered */
+    text-align: center; /* Redundant for inline-block but ensures cross-browser compatibility */
+}
+.cta-button:hover {
+	background-color: #218838;
+}
+/* .section {
+	margin-bottom: 20px;
+} */
+.bonus-option {
+	background: #e9ecef;
+	padding: 15px;
+	border-radius: 6px;
+	margin: 10px 0;
+}
+footer {
+	text-align: center;
+	font-size: 12px;
+	color: #6c757d;
+}
+footer a {
+	color: #0056b3;
+	text-decoration: none;
+}
+
+.container2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 50px auto;
+	padding: 0;
+	background: #fff;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
+	max-width: 1000px;
+	border: 1px solid;
+}
+
+/* Left Side Form */
+.form-section {
+	padding: 30px;
+	flex: 1;
+}
+.form-section h2 {
+    color: #0056b3;
+    margin-bottom: 10px;
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+/* Right Side Image */
+.image-section {
+	flex: 1;
+	background-color: #e9ecef;
+}
+
+.image-section img {
+	height: 100%;
+	object-fit: cover;
+}
+
+@media (max-width: 768px) {
+	.container2 {
+		flex-direction: column;
+	}
+
+	.form-section, .image-section {
+		width: 100%;
+	}
+}
+
+.qr-code {
+	flex: 1;
+	text-align: center;
+}
+
+.qr-code img {
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+}
+
+.description {
+	flex: 2;
+	padding-left: 20px;
+}
+
+.description h2 {
+	color: #0056b3;
+}
+
+.description p {
+	color: #555;
+}
+.p-20{
+	padding: 20px;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+	.container {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.description {
+		padding-left: 0;
+	}
+}
+
+
+/* Booking Success CSS */
+.container3 {
+	background-color: #ffffff;
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	text-align: center;
+}
+
+.container3 h1 {
+	color: #28a745;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.container3 p {
+	color: #555;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+.container3 .order-info {
+	margin-top: 30px;
+	padding: 15px;
+	background-color: #f1f3f5;
+	border-radius: 6px;
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+.container3 .order-info p {
+	margin: 10px 0;
+}
+
+.container3  .button {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 12px 25px;
+	background-color: #007bff;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	font-size: 16px;
+}
+
+.container3 .button:hover {
+	background-color: #0056b3;
+}
+
+/* Testimonials Section. */
+
+.testimonial-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto;
+	flex-wrap: wrap;
+	gap: 30px;
+	max-width: 1200px;
+}
+
+.testimonial-card {
+	background-color: #f4f7fc;
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	padding: 30px;
+	flex: 1 1 22%;
+	text-align: center;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	overflow: hidden;
+}
+
+.testimonial-card:hover {
+	transform: translateY(-15px);
+	box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.testimonial-card h3 {
+	font-size: 22px;
+	color: #007bff;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+
+.testimonial-card p {
+	font-size: 16px;
+	color: #555;
+	line-height: 1.6;
+	margin-bottom: 25px;
+}
+
+.testimonial-author {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+
+.testimonial-author div {
+	text-align: left;
+}
+
+.testimonial-author .name {
+	font-weight: bold;
+	color: #333;
+	font-size: 18px;
+}
+
+
+/* Heading Styles */
+.heading {
+	text-align: center;
+	margin: 50px 0;
+	font-size: 28px;
+	color: #333;
+	font-weight: bold;
+}
+
+.heading span {
+	color: #007bff;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 1024px) {
+	.testimonial-card {
+		flex: 1 1 48%;
+	}
+}
+
+@media (max-width: 768px) {
+	.testimonial-card {
+		flex: 1 1 100%;
+	}
+}

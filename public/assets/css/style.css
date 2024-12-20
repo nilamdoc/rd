@@ -43,10 +43,15 @@
 }
 #about{
   background-color: black; 
-  height: 100vh; 
+  /* height: 100vh; 
   display: flex; 
   flex-direction: column; 
-  justify-content: flex-end;
+  justify-content: flex-end; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
 }
 #services{
   background-color: black; 
@@ -58,7 +63,7 @@
 }
 .services .video_text_div h4{
   color:white;
-  font-size: 5rem; 
+  font-size: 6rem; 
   font-weight: bold; 
   line-height: 1.2; 
   width: 100%; 
@@ -95,4 +100,25 @@
   .row {
     flex-direction: column;
   }
+}
+
+.font-weight-400{
+	font-weight: 400!important;
+}
+.font-weight-600{
+	font-weight: 600!important  ;
+}
+
+/* Navbar Css .*/
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
 }

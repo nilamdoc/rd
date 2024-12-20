@@ -1,40 +1,42 @@
 @extends('layouts.app') <!-- Assuming you have a layout file -->
 
 @section('content')
-<section class="about section">
-	<div class="container">
-		<div class="timer-container">
-			<!-- Clock Icon -->
-			<div>
-				<i class="bi bi-clock-fill clock-icon"></i>
-			</div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    
+  </div>
+</nav>   
+<section class="section">
+	<section class="about section">
+		<div class="container">
+			<div class="timer-container">
+				<!-- Clock Icon -->
+				<div>
+					<i class="bi bi-clock-fill clock-icon"></i>
+				</div>
 
-			<!-- Timer Display -->
-			<div class="timer">
-				<span id="minutes">00</span>:<span id="seconds">00</span>
+				<!-- Timer Display -->
+				<div class="timer">
+					<span id="minutes">00</span>:<span id="seconds">00</span>
+				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<div class="container quiz-center" style="    justify-content: center !important;">
-	<div class="row">
+	</section>
+	<div class="container quiz-center" style="    justify-content: center !important;">
+		<div class="row">
 
-		<!-- Left Side - Form -->
-		<div class="col-md-12 form-container">
-			@if(session('success'))
-				<div class="bg-green-500 text-white p-4 rounded-md mb-4">
-					<p class="font-semibold">{{ session('success') }}</p>
-				</div>
-			@endif
-			<div id="quiz-container">
-				@foreach($questions as $question)
+			<!-- Left Side - Form -->
+			<div class="col-md-12 form-container">
+				@if(session('success'))
+					<div class="bg-green-500 text-white p-4 rounded-md mb-4">
+						<p class="font-semibold">{{ session('success') }}</p>
+					</div>
+				@endif
+				<div id="quiz-container">
+					@foreach($questions as $question)
 					<div class="question-container" id="question-{{ $question['id'] }}">
 						<div class="question-icon-left">
-							@if($question['id'] == 1)
-								<i class="fas fa-chevron-left nav-icon disabled" onclick="return false;"></i>
-							@else
-								<i class="fas fa-chevron-left nav-icon" onclick="previousQuestion({{ $question['id'] }})"></i>
-							@endif
+							<i class="fas fa-chevron-left nav-icon" id="prev-{{ $question['id'] }}"></i>
 						</div>
 
 						<div class="question">
@@ -53,86 +55,21 @@
 						</div>
 
 						<div class="question-icon-right">
-							<i class="fas fa-chevron-right nav-icon" onclick="nextQuestion({{ $question['id'] }})"></i>
+							<i class="fas fa-chevron-right nav-icon" id="next-{{ $question['id'] }}"></i>
 						</div>
 					</div>
-				@endforeach
+					<input type="hidden" id="answers" name="answers">
+					<input type="hidden" id="userId" name="userId" value="{{$userId}}">
+					@endforeach
 
-				<div id="finish-message" style="display:none;">
-					<p>Thank you for completing the quiz!</p>
-				</div>
+					<div id="finish-message" style="display:none;">
+						<button type="submit" class="btn btn-primary" id="submit-answers">Submit Answers</button>
+					</div>
+				</div>	
+				
 			</div>
-
 		</div>
 	</div>
-</div>
+</section>
 
-
-<script>
-	// Function to move to the next question
-	function nextQuestion(currentQuestionNumber) {
-		const currentQuestion = document.getElementById("question-" + currentQuestionNumber);
-		const errorMessage = document.getElementById("error-q" + currentQuestionNumber);
-
-		// Check if an answer is selected
-		if (!document.querySelector(`input[name="q${currentQuestionNumber}"]:checked`)) {
-			errorMessage.textContent = "Please select an answer before proceeding!";
-			return; // Do not proceed if no answer is selected
-		}
-
-		errorMessage.textContent = ""; // Clear error message
-
-		// Hide the current question
-		currentQuestion.classList.remove("active");
-
-		// Get the next question
-		const nextQuestionNumber = currentQuestionNumber + 1;
-		const nextQuestion = document.getElementById("question-" + nextQuestionNumber);
-
-		if (nextQuestion) {
-			// Show the next question
-			nextQuestion.classList.add("active");
-		} else {
-			// If no more questions, show the finish message
-			document.getElementById("finish-message").style.display = "block";
-		}
-	}
-
-	// Function to move to the previous question
-	function previousQuestion(currentQuestionNumber) {
-		const currentQuestion = document.getElementById("question-" + currentQuestionNumber);
-
-		// Hide the current question
-		currentQuestion.classList.remove("active");
-
-		// Get the previous question number
-		const prevQuestionNumber = currentQuestionNumber - 1;
-		const prevQuestion = document.getElementById("question-" + prevQuestionNumber);
-
-		// Show the previous question if it exists
-		if (prevQuestion) {
-			prevQuestion.classList.add("active");
-		}
-
-		// Disable the previous button if it's the first question
-		const prevButton = document.querySelector(`#question-${prevQuestionNumber} .fa-chevron-left`);
-		const nextButton = document.querySelector(`#question-${prevQuestionNumber} .fa-chevron-right`);
-
-		if (prevQuestionNumber === 0) {
-			prevButton.classList.add("disabled");
-			prevButton.setAttribute("onclick", "return false;"); // Disable action
-		} else if (prevButton) {
-			prevButton.classList.remove("disabled");
-			prevButton.removeAttribute("onclick"); // Enable action
-		}
-
-		// Ensure the next button is always enabled when moving backward
-		if (nextButton) {
-			nextButton.classList.remove("disabled");
-			nextButton.removeAttribute("onclick");
-		}
-	}
-
-
-</script>
 @endsection

@@ -1,0 +1,168 @@
+[{
+  "_id": 1734380147,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:15:47.765Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:15:47.765Z"
+  }
+},
+{
+  "_id": 1734380178,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:16:18.376Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:16:18.376Z"
+  }
+},
+{
+  "_id": 1734380214,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:16:54.675Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:16:54.675Z"
+  }
+},
+{
+  "_id": 1734380250,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:17:30.568Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:17:30.568Z"
+  }
+},
+{
+  "_id": 1734380277,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:17:57.654Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:17:57.654Z"
+  }
+},
+{
+  "_id": 1734380318,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:18:38.303Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:18:38.303Z"
+  }
+},
+{
+  "_id": 1734380411,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:20:11.931Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:20:11.931Z"
+  }
+},
+{
+  "_id": 1734380503,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:21:43.275Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:21:43.275Z"
+  }
+},
+{
+  "_id": 1734380517,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:21:57.272Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:21:57.272Z"
+  }
+},
+{
+  "_id": 1734380718,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:25:18.757Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:25:18.757Z"
+  }
+},
+{
+  "_id": 1734381150,
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"I\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-16T20:32:30.175Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T20:32:30.175Z"
+  }
+},
+{
+  "_id": 1734458478,
+  "user_id": "$2y$12$BYIJde0tFrRWFQYqqmXmLeWFzptA7Uyt6rK4xOaxGFHKKCNhZkphW",
+  "test_type": "Personality Test",
+  "answers": "[{\"questionId\":\"1\",\"answer\":\"B\"},{\"questionId\":\"2\",\"answer\":\"G\"},{\"questionId\":\"3\",\"answer\":\"D\"},{\"questionId\":\"4\",\"answer\":\"H\"},{\"questionId\":\"5\",\"answer\":\"E\"}]",
+  "hightest_answer": "I",
+  "hightest_answer_no": "7",
+  "created_at": {
+    "$date": "2024-12-17T18:01:18.178Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-17T18:01:18.178Z"
+  }
+}]

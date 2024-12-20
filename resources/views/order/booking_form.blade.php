@@ -5,12 +5,12 @@
   <div class="container-fluid">
     
   </div>
-</nav>      
+</nav>   
 <div class="container2">
     <!-- Left Side Form -->
     <div class="form-section">
-        <h2>Registration</h2>
-        <form id="contactForm" method="POST" action="{{ route('contact.submit') }}" autocomplete="off">
+        <h2>Billing Information</h2>
+        <form id="contactForm" method="POST" action="{{ route('order.submit') }}" autocomplete="off">
             @csrf <!-- Protect against CSRF attacks -->
             
             <!-- Name Field -->
@@ -66,7 +66,7 @@
             </div>
             
             <!-- Submit Button -->
-            <button type="submit" class="btn btn-primary w-100">Register</button>
+            <button type="submit" class="btn btn-primary w-100">Order</button>
         </form>
     </div>
 
@@ -74,5 +74,38 @@
     <div class="image-section">
         <img src="https://via.placeholder.com/500x600" alt="Form Image">
     </div>
+</div>
+<div class="container2 p-20">
+    <!-- Left side: QR Code Image -->
+    <div class="qr-code">
+        <img src="https://via.placeholder.com/500x600" alt="QR Code">
+    </div>
+
+    <!-- Right side: Text Description -->
+    <div class="description">
+        <h2>Scan the QR Code</h2>
+        <p>Scan the QR code to access exclusive content or offers. Simply use your smartphone's camera or a QR code reader to unlock amazing opportunities. This feature allows you to quickly connect with the information or service you need.</p>
+    </div>
+</div>
+<hr>
+<!-- Heading Section -->
+<div class="heading">
+    <p>P.S. <span>CHECK OUT WHAT PEOPLE HAVE TO SAY</span> ABOUT THE INNER PERSONALITY IDENTIFICATION REPORT</p>
+</div>
+
+<!-- Testimonial Container -->
+<div class="testimonial-container">
+    @forelse($testimonialsData as $testimonial)
+        <div class="testimonial-card">
+            <p>"{{ trim($testimonial->testimonial) }}"</p>
+            <div class="testimonial-author">
+                <div>
+                    <div class="name">{{ trim($testimonial->country) }}</div>
+                </div>
+            </div>
+        </div>
+    @empty
+        <p>No testimonials available at the moment.</p>
+    @endforelse
 </div>
 @endsection

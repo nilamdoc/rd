@@ -1,0 +1,2016 @@
+[{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aa6"
+  },
+  "id": "1",
+  "question": "1",
+  "QA": "I've been romantic and imaginative.",
+  "AA": "E",
+  "QB": "I've been pragmatic and down to earth.",
+  "AB": "B",
+  "HA": "मैं रोमांटिक और कल्पनाशील रहा हूं",
+  "HB": "मैं व्यावहारिक और जमीन से जुड़ा हुआ हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aa7"
+  },
+  "id": "2",
+  "question": "2",
+  "QA": "I have tended to take on confrontations.",
+  "AA": "G",
+  "QB": "I have tended to avoid confrontations.",
+  "AB": "A",
+  "HA": "मैं टकराव मोल लेने की प्रवृत्ति रखता हूं",
+  "HB": "मैं टकराव से बचने की प्रवृत्ति रखता हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aa8"
+  },
+  "id": "3",
+  "question": "3",
+  "QA": "I have typically been diplomatic, charming, and ambitious.",
+  "AA": "C",
+  "QB": "I have typically been direct, formal, and idealistic.",
+  "AB": "D",
+  "HA": "मैं आमतौर पर कूटनीतिक, आकर्षक और महत्वाकांक्षी रहा हूं",
+  "HB": "मैं आमतौर पर प्रत्यक्ष, औपचारिक और आदर्शवादी रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aa9"
+  },
+  "id": "4",
+  "question": "4",
+  "QA": "I have tended to be focused and intense.",
+  "AA": "H",
+  "QB": "I have tended to be spontaneous and fun-loving.",
+  "AB": "I",
+  "HA": "मैं केंद्रित और गहन रहने की प्रवृत्ति रखता हूं",
+  "HB": "मैं सहज और मौज-मस्ती पसंद करने वाला रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aaa"
+  },
+  "id": "5",
+  "question": "5",
+  "QA": "I have been a hospitable person and have enjoyed welcoming new friends into my life.",
+  "AA": "F",
+  "QB": "I have been a private person and have not mixed much with others.",
+  "AB": "E",
+  "HA": "मैं एक मेहमाननवाज़ व्यक्ति रहा हूं और अपने जीवन में नए दोस्तों का स्वागत करते हुए मुझे आनंद आया है",
+  "HB": "मैं एक निजी व्यक्ति रहा हूं और दूसरों के साथ ज्यादा घुलता-मिलता नहीं हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aab"
+  },
+  "id": "6",
+  "question": "6",
+  "QA": "It's been difficult for me to relax and stop worrying about potential problems.",
+  "AA": "B",
+  "QB": "It's been difficult for me to get myself worked up about potential problems.",
+  "AB": "A",
+  "HA": "मेरे लिए आराम करना और संभावित समस्याओं के बारे में चिंता करना बंद करना कठिन हो गया है",
+  "HB": "मेरे लिए संभावित समस्याओं से निपटना कठिन हो गया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aac"
+  },
+  "id": "7",
+  "question": "7",
+  "QA": "I've been more of a \"street-smart\" survivor.",
+  "AA": "G",
+  "QB": "I've been more of a \"high-minded\" idealist.",
+  "AB": "D",
+  "HA": "मैं अधिक \"स्ट्रीट-स्मार्ट\" उत्तरजीवी रहा हूँ",
+  "HB": "मैं अधिक \"उच्च विचारधारा\" वाला आदर्शवादी रहा हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aad"
+  },
+  "id": "8",
+  "question": "8",
+  "QA": "I have needed to show affection to people.",
+  "AA": "F",
+  "QB": "I have preferred to maintain some distance with people.",
+  "AB": "H",
+  "HA": "मुझे लोगों के प्रति स्नेह दिखाने की जरूरत है",
+  "HB": "मैंने लोगों के साथ कुछ दूरी बनाए रखना पसंद किया है।'",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aae"
+  },
+  "id": "9",
+  "question": "9",
+  "QA": "When presented with a new experience, I've usually asked myself if it would be useful to me.",
+  "AA": "C",
+  "QB": "When presented with a new experience, I've usually asked myself if it would be enjoyable.",
+  "AB": "I",
+  "HA": "जब मुझे कोई नया अनुभव मिलता है, तो मैं आमतौर पर खुद से पूछता हूं कि क्या यह मेरे लिए उपयोगी होगा",
+  "HB": "जब मुझे कोई नया अनुभव मिलता है, तो मैं आमतौर पर खुद से पूछता हूं कि क्या यह आनंददायक होगा",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aaf"
+  },
+  "id": "10",
+  "question": "10",
+  "QA": "I have tended to focus too much on myself.",
+  "AA": "E",
+  "QB": "I have tended to focus too much on others.",
+  "AB": "A",
+  "HA": "मैं खुद पर बहुत अधिक ध्यान केंद्रित करने लगा हूं",
+  "HB": "मैं दूसरों पर बहुत अधिक ध्यान केंद्रित करने लगा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab0"
+  },
+  "id": "11",
+  "question": "11",
+  "QA": "Others have depended on my insight and knowledge.",
+  "AA": "H",
+  "QB": "Others have depended on my strength and decisiveness.",
+  "AB": "G",
+  "HA": "अन्य लोग मेरी अंतर्दृष्टि और ज्ञान पर निर्भर रहे हैं",
+  "HB": "दूसरे लोग मेरी ताकत और निर्णायक क्षमता पर निर्भर रहे हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab1"
+  },
+  "id": "12",
+  "question": "12",
+  "QA": "I have come across as being too unsure of myself.",
+  "AA": "B",
+  "QB": "I have come across as being too sure of myself.",
+  "AB": "D",
+  "HA": "मुझे अपने बारे में बहुत अधिक अनिश्चित होने का आभास हुआ है",
+  "HB": "मैं खुद को लेकर बहुत आश्वस्त हो गया हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab2"
+  },
+  "id": "13",
+  "question": "13",
+  "QA": "I have been more relationship-oriented than goal-oriented.",
+  "AA": "F",
+  "QB": "I have been more goal-oriented than relationship-oriented.",
+  "AB": "C",
+  "HA": "मैं लक्ष्य-उन्मुख से अधिक संबंध-उन्मुख रहा हूं",
+  "HB": "मैं संबंध-उन्मुख से अधिक लक्ष्य-उन्मुख रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab3"
+  },
+  "id": "14",
+  "question": "14",
+  "QA": "I have not been able to speak up for myself very well.",
+  "AA": "E",
+  "QB": "I have been outspoken – I've said what others wished they had the nerve to say.",
+  "AB": "I",
+  "HA": "मैं अपने बारे में बहुत अच्छे से नहीं बोल पा रहा हूं",
+  "HB": "मैं मुखर रहा हूँ - मैंने वही कहा है जो दूसरे चाहते थे कि उनमें कहने का साहस होता",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab4"
+  },
+  "id": "15",
+  "question": "15",
+  "QA": "It's been difficult for me to stop considering alternatives and do something definite.",
+  "AA": "H",
+  "QB": "It's been difficult for me to take it easy and be more flexible.",
+  "AB": "D",
+  "HA": "मेरे लिए विकल्पों पर विचार करना बंद करना और कुछ निश्चित करना कठिन हो गया है",
+  "HB": "मेरे लिए इसे सहजता से लेना और अधिक लचीला होना कठिन रहा है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab5"
+  },
+  "id": "16",
+  "question": "16",
+  "QA": "I have tended to be careful and hesitant.",
+  "AA": "B",
+  "QB": "I have tended to be bold and domineering.",
+  "AB": "G",
+  "HA": "मेरी प्रवृत्ति सावधान रहने और झिझकने की रही है",
+  "HB": "मेरी प्रवृत्ति साहसी और दबंग होने की रही है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab6"
+  },
+  "id": "17",
+  "question": "17",
+  "QA": "My reluctance to get too involved has gotten me into trouble with people.",
+  "AA": "A",
+  "QB": "My eagerness to have people depend on me has gotten me into trouble with them.",
+  "AB": "F",
+  "HA": "बहुत ज्यादा शामिल होने की मेरी अनिच्छा ने मुझे लोगों के साथ परेशानी में डाल दिया है",
+  "HB": "लोगों को मुझ पर निर्भर करने की मेरी उत्सुकता ने मुझे उनसे परेशानी में डाल दिया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab7"
+  },
+  "id": "18",
+  "question": "18",
+  "QA": "Usually, I have been able to put my feelings aside to get the job done.",
+  "AA": "C",
+  "QB": "Usually, I have needed to work through my feelings before I could act.",
+  "AB": "E",
+  "HA": "आमतौर पर, मैं काम पूरा करने के लिए अपनी भावनाओं को एक तरफ रखने में सक्षम हूं",
+  "HB": "आमतौर पर, मुझे अभिनय करने से पहले अपनी भावनाओं पर काम करना पड़ता है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab8"
+  },
+  "id": "19",
+  "question": "19",
+  "QA": "Generally, I've been methodical and cautious.",
+  "AA": "B",
+  "QB": "Generally, I've been adventurous and taken risks.",
+  "AB": "I",
+  "HA": "आम तौर पर, मैं व्यवस्थित और सतर्क रहा हूं",
+  "HB": "आम तौर पर, मैं साहसी रहा हूँ और जोखिम लेता रहा हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ab9"
+  },
+  "id": "20",
+  "question": "20",
+  "QA": "I have tended to be a supportive, giving person who seeks intimacy with others.",
+  "AA": "F",
+  "QB": "I have tended to be a serious, reserved person who likes discussing issues.",
+  "AB": "D",
+  "HA": "मैं एक सहयोगी, देने वाला व्यक्ति बन गया हूं जो दूसरों के साथ घनिष्ठता चाहता है",
+  "HB": "मैं एक गंभीर, आरक्षित व्यक्ति रहा हूं जो मुद्दों पर चर्चा करना पसंद करता है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aba"
+  },
+  "id": "21",
+  "question": "21",
+  "QA": "I've often felt the need to be a \"pillar of strength\".",
+  "AA": "G",
+  "QB": "I've often felt the need to perform perfectly.",
+  "AB": "C",
+  "HA": "मुझे अक्सर \"शक्ति का स्तंभ\" बनने की आवश्यकता महसूस हुई है",
+  "HB": "मुझे अक्सर उत्कृष्ट प्रदर्शन करने की आवश्यकता महसूस हुई है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7abb"
+  },
+  "id": "22",
+  "question": "22",
+  "QA": "I've typically been interested in asking tough questions and maintaining my independence.",
+  "AA": "H",
+  "QB": "I've typically been interested in maintaining my stability and peace of mind.",
+  "AB": "A",
+  "HA": "मुझे आमतौर पर कठिन प्रश्न पूछने और अपनी स्वतंत्रता बनाए रखने में रुचि रही है",
+  "HB": "मैं आमतौर पर अपनी स्थिरता और मन की शांति बनाए रखने में रुचि रखता हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7abc"
+  },
+  "id": "23",
+  "question": "23",
+  "QA": "I've been a bit cynical and skeptical.",
+  "AA": "B",
+  "QB": "I've been a bit mushy and sentimental.",
+  "AB": "F",
+  "HA": "मैं थोड़ा निंदक और संशयवादी हो गया हूं",
+  "HB": "मैं थोड़ा भावुक और भावुक हो गया हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7abd"
+  },
+  "id": "24",
+  "question": "24",
+  "QA": "I've often worried that I'm missing out on something better.",
+  "AA": "I",
+  "QB": "I've often worried that if I let down my guard, someone will take advantage of me.",
+  "AB": "G",
+  "HA": "मुझे अक्सर चिंता होती है कि मैं कुछ बेहतर करने से चूक रहा हूँ",
+  "HB": "मुझे अक्सर यह चिंता रहती है कि अगर मैंने अपनी सावधानी बरती तो कोई मेरा फायदा उठाएगा",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7abe"
+  },
+  "id": "25",
+  "question": "25",
+  "QA": "My habit of being \"stand-offish\" has annoyed people.",
+  "AA": "E",
+  "QB": "My habit of telling people what to do has annoyed people.",
+  "AB": "D",
+  "HA": "मेरी \"स्टैंड-ऑफिश\" रहने की आदत ने लोगों को परेशान कर दिया है",
+  "HB": "लोगों को यह बताने की कि क्या करना है, मेरी आदत ने लोगों को नाराज़ कर दिया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7abf"
+  },
+  "id": "26",
+  "question": "26",
+  "QA": "I have tended to get anxious if there was too much excitement and stimulation.",
+  "AA": "A",
+  "QB": "I have tended to get anxious if there wasn't enough excitement and stimulation.",
+  "AB": "I",
+  "HA": "यदि बहुत अधिक उत्साह और उत्तेजना हो तो मैं चिंतित हो जाता हूँ",
+  "HB": "यदि पर्याप्त उत्तेजना और उत्तेजना नहीं होती तो मैं चिंतित हो जाता हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac0"
+  },
+  "id": "27",
+  "question": "27",
+  "QA": "I have depended on my friends and they have known that they can depend on me.",
+  "AA": "B",
+  "QB": "I have not depended on people; I have done things on my own.",
+  "AB": "C",
+  "HA": "मैं अपने दोस्तों पर निर्भर रहा हूं और वे जानते हैं कि वे मुझ पर निर्भर रह सकते हैं",
+  "HB": "मैं लोगों पर निर्भर नहीं रहा हूं; मैंने चीजें अपने दम पर की हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac1"
+  },
+  "id": "28",
+  "question": "28",
+  "QA": "I have tended to be detached and preoccupied.",
+  "AA": "H",
+  "QB": "I have tended to be moody and self-absorbed.",
+  "AB": "E",
+  "HA": "मेरी प्रवृत्ति अलग और व्यस्त रहने की रही है",
+  "HB": "मैं मूडी और आत्म-लीन रहने की प्रवृत्ति रखता हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac2"
+  },
+  "id": "29",
+  "question": "29",
+  "QA": "I have liked to challenge people and \"shake them up\".",
+  "AA": "G",
+  "QB": "I have liked to comfort people and calm them down.",
+  "AB": "F",
+  "HA": "मुझे लोगों को चुनौती देना और \"उन्हें हिला देना\" पसंद है",
+  "HB": "मुझे लोगों को सांत्वना देना और उन्हें शांत करना पसंद है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac3"
+  },
+  "id": "30",
+  "question": "30",
+  "QA": "I have generally been an outgoing, sociable person.",
+  "AA": "I",
+  "QB": "I have generally been an earnest, self-disciplined person.",
+  "AB": "D",
+  "HA": "मैं आम तौर पर एक निवर्तमान, मिलनसार व्यक्ति रहा हूं",
+  "HB": "मैं आम तौर पर एक ईमानदार, आत्म-अनुशासित व्यक्ति रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac4"
+  },
+  "id": "31",
+  "question": "31",
+  "QA": "I've wanted to \"fit in\" with others-I get uncomfortable when I stand out too much.",
+  "AA": "A",
+  "QB": "I've wanted to stand out from others-I get uncomfortable when I don't distinguish myself.",
+  "AB": "C",
+  "HA": "मैं दूसरों के साथ \"फिट\" होना चाहता हूं-जब मैं बहुत ज्यादा अलग दिखता हूं तो मैं असहज हो जाता हूं",
+  "HB": "मैं दूसरों से अलग दिखना चाहता हूं-जब मैं खुद को अलग नहीं दिखाता तो मैं असहज हो जाता हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac5"
+  },
+  "id": "32",
+  "question": "32",
+  "QA": "Pursuing my personal interests has been more important to me than having stability and security.",
+  "AA": "H",
+  "QB": "Having stability and security has been more important to me than pursuing my personal interests.",
+  "AB": "B",
+  "HA": "मेरे लिए स्थिरता और सुरक्षा की तुलना में अपने व्यक्तिगत हितों को पूरा करना अधिक महत्वपूर्ण रहा है",
+  "HB": "मेरे लिए अपने व्यक्तिगत हितों को आगे बढ़ाने की तुलना में स्थिरता और सुरक्षा अधिक महत्वपूर्ण रही है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac6"
+  },
+  "id": "33",
+  "question": "33",
+  "QA": "When I've had conflicts with others, I've tended to withdraw.",
+  "AA": "E",
+  "QB": "When I've had conflicts with others, I've rarely backed down.",
+  "AB": "G",
+  "HA": "जब मेरा दूसरों के साथ विवाद होता है, तो मैं पीछे हटने की प्रवृत्ति रखता हूं",
+  "HB": "जब मेरा दूसरों के साथ टकराव हुआ है, तो मैं शायद ही कभी पीछे हटा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac7"
+  },
+  "id": "34",
+  "question": "34",
+  "QA": "I have given in too easily and let others push me around.",
+  "AA": "A",
+  "QB": "I have been too uncompromising and demanding with others.",
+  "AB": "D",
+  "HA": "मैंने बहुत आसानी से हार मान ली है और दूसरों को मुझ पर दबाव डालने दिया है",
+  "HB": "मैं दूसरों के साथ बहुत ज्यादा समझौताहीन और मांग करने वाला रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac8"
+  },
+  "id": "35",
+  "question": "35",
+  "QA": "I've been appreciated for my unsinkable spirit and resourcefulness.",
+  "AA": "I",
+  "QB": "I've been appreciated for my deep caring and personal warmth.",
+  "AB": "F",
+  "HA": "मेरी अदम्य भावना और साधन संपन्नता के लिए मेरी सराहना की गई है",
+  "HB": "मेरी गहरी देखभाल और व्यक्तिगत गर्मजोशी के लिए मेरी सराहना की गई है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ac9"
+  },
+  "id": "36",
+  "question": "36",
+  "QA": "I have wanted to make a favorable impression on others.",
+  "AA": "C",
+  "QB": "I have cared little about making a favorable impression on others.",
+  "AB": "H",
+  "HA": "मैं दूसरों पर अनुकूल प्रभाव डालना चाहता हूँ",
+  "HB": "मैंने दूसरों पर अनुकूल प्रभाव डालने की बहुत कम परवाह की है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aca"
+  },
+  "id": "37",
+  "question": "37",
+  "QA": "I've depended on my perseverance and common sense.",
+  "AA": "B",
+  "QB": "I've depended on my imagination and moments of inspiration.",
+  "AB": "E",
+  "HA": "मैं अपनी दृढ़ता और सामान्य ज्ञान पर निर्भर रहा हूं",
+  "HB": "मैं अपनी कल्पना और प्रेरणा के क्षणों पर निर्भर रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7acb"
+  },
+  "id": "38",
+  "question": "38",
+  "QA": "Basically, I have been easy-going and agreeable.",
+  "AA": "A",
+  "QB": "Basically, I have been hard-driving and assertive.",
+  "AB": "G",
+  "HA": "मूलतः, मैं सहज और सहमत रहने वाला व्यक्ति रहा हूँ",
+  "HB": "मूलतः, मैं कठोर और दृढ़ निश्चयी रहा हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7acc"
+  },
+  "id": "39",
+  "question": "39",
+  "QA": "I have worked hard to be accepted and well-liked.",
+  "AA": "C",
+  "QB": "Being accepted and well-liked has not been a high priority for me.",
+  "AB": "D",
+  "HA": "मैंने स्वीकार किए जाने और पसंद किए जाने के लिए कड़ी मेहनत की है",
+  "HB": "स्वीकार्य और पसंद किया जाना मेरे लिए उच्च प्राथमिकता नहीं रही है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7acd"
+  },
+  "id": "40",
+  "question": "40",
+  "QA": "In reaction to pressure from others, I have become more withdrawn.",
+  "AA": "H",
+  "QB": "In reaction to pressure from others, I have become more assertive.",
+  "AB": "I",
+  "HA": "दूसरों के दबाव की प्रतिक्रिया में, मैं और अधिक पीछे हट गया हूँ",
+  "HB": "दूसरों के दबाव की प्रतिक्रिया में, मैं और अधिक मुखर हो गया हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ace"
+  },
+  "id": "41",
+  "question": "41",
+  "QA": "People have been interested in me because I've been outgoing, engaging, and interested in them.",
+  "AA": "F",
+  "QB": "People have been interested in me because I've been quiet, unusual, and deep.",
+  "AB": "E",
+  "HA": "लोगों की मुझमें दिलचस्पी इसलिए रही है क्योंकि मैं मिलनसार, आकर्षक और उनमें रुचि रखने वाला रहा हूं",
+  "HB": "लोगों की मुझमें दिलचस्पी इसलिए रही है क्योंकि मैं शांत, असामान्य और गहरा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7acf"
+  },
+  "id": "42",
+  "question": "42",
+  "QA": "Duty and responsibility have been important values for me.",
+  "AA": "B",
+  "QB": "Harmony and acceptance have been important values for me.",
+  "AB": "A",
+  "HA": "कर्तव्य और जिम्मेदारी मेरे लिए महत्वपूर्ण मूल्य रहे हैं",
+  "HB": "सद्भाव और स्वीकार्यता मेरे लिए महत्वपूर्ण मूल्य रहे हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad0"
+  },
+  "id": "43",
+  "question": "43",
+  "QA": "I've tried to motivate people by making big plans and big promises.",
+  "AA": "G",
+  "QB": "I've tried to motivate people by pointing out the consequences of not following my advice.",
+  "AB": "D",
+  "HA": "मैंने बड़ी योजनाएँ और बड़े वादे करके लोगों को प्रेरित करने का प्रयास किया है",
+  "HB": "मैंने लोगों को मेरी सलाह का पालन न करने के परिणामों के बारे में बताकर प्रेरित करने का प्रयास किया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad1"
+  },
+  "id": "44",
+  "question": "44",
+  "QA": "I have seldom been emotionally demonstrative.",
+  "AA": "H",
+  "QB": "I have often been emotionally demonstrative.",
+  "AB": "F",
+  "HA": "मैं शायद ही कभी भावनात्मक रूप से प्रदर्शनकारी रहा हूँ",
+  "HB": "मैं अक्सर भावनात्मक रूप से प्रदर्शनकारी रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad2"
+  },
+  "id": "45",
+  "question": "45",
+  "QA": "Dealing with details has not been one of my strong suits.",
+  "AA": "I",
+  "QB": "I have excelled at dealing with details.",
+  "AB": "C",
+  "HA": "विवरणों से निपटना मेरी मजबूत प्राथमिकताओं में से एक नहीं रहा है",
+  "HB": "मैंने विवरणों से निपटने में उत्कृष्टता हासिल की है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad3"
+  },
+  "id": "46",
+  "question": "46",
+  "QA": "I have often emphasized how different I am from most peoples, especially my family.",
+  "AA": "E",
+  "QB": "I have often emphasized how much I have in common with most people, especially my family.",
+  "AB": "A",
+  "HA": "मैंने अक्सर इस बात पर ज़ोर दिया है कि मैं ज़्यादातर लोगों से, ख़ासकर अपने परिवार से कितना अलग हूं",
+  "HB": "मैंने अक्सर इस बात पर ज़ोर दिया है कि ज़्यादातर लोगों से, ख़ासकर अपने परिवार से, मुझमें कितनी समानताएं हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad4"
+  },
+  "id": "47",
+  "question": "47",
+  "QA": "When situations have gotten heated, I have tended to stay on the sidelines.",
+  "AA": "H",
+  "QB": "When situations have gotten heated, I have tended to get right into the middle of things.",
+  "AB": "G",
+  "HA": "जब स्थितियां गर्म हो जाती हैं, तो मैं किनारे पर रहने की प्रवृत्ति रखता हूं",
+  "HB": "जब स्थितियां गर्म हो जाती हैं, तो मैं सीधे चीजों के बीच में पहुंच जाता हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad5"
+  },
+  "id": "48",
+  "question": "48",
+  "QA": "I have stood by my friends, even when they have been wrong.",
+  "AA": "G",
+  "QB": "I have not wanted to compromise what is right even for friendship.",
+  "AB": "B",
+  "HA": "मैं अपने दोस्तों के साथ खड़ा रहा हूं, तब भी जब वे गलत थे",
+  "HB": "मैं दोस्ती के लिए भी जो सही है उससे समझौता नहीं करना चाहता",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad6"
+  },
+  "id": "49",
+  "question": "49",
+  "QA": "I've been a well-meaning supporter .",
+  "AA": "F",
+  "QB": "I've been a highly-motivated go-getter.",
+  "AB": "C",
+  "HA": "मैं एक नेक इरादे वाला समर्थक रहा हूं",
+  "HB": "मैं अत्यधिक प्रेरित होकर घूमने वाला व्यक्ति रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad7"
+  },
+  "id": "50",
+  "question": "50",
+  "QA": "When troubled, I have tended to brood about my problems.",
+  "AA": "E",
+  "QB": "When troubled, or have tended to find distractions for myself.",
+  "AB": "I",
+  "HA": "परेशान होने पर, मैं अपनी समस्याओं के बारे में सोचने लगा हूँ",
+  "HB": "परेशान होने पर, मैं अपने लिए ध्यान भटकाने की कोशिश करता हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad8"
+  },
+  "id": "51",
+  "question": "51",
+  "QA": "Generally, I've had strong convictions and a sense of how things should be.",
+  "AA": "D",
+  "QB": "Generally, I've had serious doubts and have questioned how things seemed to be.",
+  "AB": "H",
+  "HA": "आम तौर पर, मेरे पास दृढ़ विश्वास और यह समझ है कि चीजें कैसी होनी चाहिए",
+  "HB": "आम तौर पर, मुझे गंभीर संदेह हुआ है और मैंने सवाल किया है कि चीजें कैसी दिख रही हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ad9"
+  },
+  "id": "52",
+  "question": "52",
+  "QA": "I've created problems with others by being pessimistic and complaining.",
+  "AA": "B",
+  "QB": "I've created problems with others by being bossy and controlling.",
+  "AB": "G",
+  "HA": "मैंने निराशावादी होकर और शिकायत करके दूसरों के साथ समस्याएँ पैदा की हैं",
+  "HB": "मैंने दूसरों पर रौब दिखाकर और नियंत्रण करके उनके साथ समस्याएँ पैदा की हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ada"
+  },
+  "id": "53",
+  "question": "53",
+  "QA": "I have tended to act on my feelings and let the \"chips fall where they may\".",
+  "AA": "F",
+  "QB": "I have tended not to act on my feelings lest they stir up more problems.",
+  "AB": "A",
+  "HA": "मैं अपनी भावनाओं के अनुरूप कार्य करने की प्रवृत्ति रखता हूँ और \"जहाँ संभव हो सके, समस्याएँ गिरने देता हूँ\"",
+  "HB": "मेरी आदत हो गई है कि मैं अपनी भावनाओं पर अमल नहीं करता, ऐसा न हो कि वे और अधिक समस्याएँ पैदा कर दें",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7adb"
+  },
+  "id": "54",
+  "question": "54",
+  "QA": "Being the center of attention has usually felt natural to me.",
+  "AA": "C",
+  "QB": "Being the center of attention has usually felt strange to me.",
+  "AB": "E",
+  "HA": "ध्यान का केंद्र बनना आमतौर पर मुझे स्वाभाविक लगता है",
+  "HB": "ध्यान का केंद्र बनना आमतौर पर मुझे अजीब लगता है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7adc"
+  },
+  "id": "55",
+  "question": "55",
+  "QA": "I've been careful, and have tried to prepare for unforeseen problems.",
+  "AA": "B",
+  "QB": "I've been spontaneous, and have preferred to improvise as problems come up.",
+  "AB": "I",
+  "HA": "मैं सावधान रहा हूं और अप्रत्याशित समस्याओं के लिए तैयारी करने की कोशिश की है",
+  "HB": "मैं सहज रहा हूं और समस्याएं आने पर सुधार करना पसंद किया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7add"
+  },
+  "id": "56",
+  "question": "56",
+  "QA": "I have gotten angry when others have not shown enough appreciation for what I have done for them.",
+  "AA": "F",
+  "QB": "I have gotten angry when others have not listened to what I have told them.",
+  "AB": "D",
+  "HA": "मुझे तब गुस्सा आता है जब दूसरों ने मैंने उनके लिए जो किया है, उसकी पर्याप्त सराहना नहीं की है",
+  "HB": "जब दूसरों ने मेरी बात नहीं मानी तो मुझे क्रोध आया",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ade"
+  },
+  "id": "57",
+  "question": "57",
+  "QA": "Being independent and self-reliant has been important to me.",
+  "AA": "G",
+  "QB": "Being valued and admired has been important to me.",
+  "AB": "C",
+  "HA": "स्वतंत्र और आत्मनिर्भर होना मेरे लिए महत्वपूर्ण रहा है",
+  "HB": "महत्व दिया जाना और प्रशंसा पाना मेरे लिए महत्वपूर्ण रहा है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7adf"
+  },
+  "id": "58",
+  "question": "58",
+  "QA": "When I've debated with friends, I've tended to press my arguments forcefully.",
+  "AA": "H",
+  "QB": "When I've debated with friends, I've tended to let things go to prevent hard feelings.",
+  "AB": "A",
+  "HA": "जब मैंने दोस्तों के साथ बहस की है, तो मैं अपने तर्कों को मजबूती से दबाने की प्रवृत्ति रखता हूं",
+  "HB": "जब मैंने दोस्तों के साथ बहस की है, तो मेरी प्रवृत्ति कठोर भावनाओं को रोकने के लिए चीजों को जाने देने की रही है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae0"
+  },
+  "id": "59",
+  "question": "59",
+  "QA": "I have often been possessive of loved ones--I have had trouble letting them be.",
+  "AA": "F",
+  "QB": "I have often \"tested\" loved ones to see if they were really there for me.",
+  "AB": "B",
+  "HA": "मैं अक्सर अपने प्रियजनों पर अधिकार जताता रहा हूं--मुझे उन्हें अपने पास रखने में परेशानी होती है",
+  "HB": "मैंने अक्सर प्रियजनों का \"परीक्षण\" किया है यह देखने के लिए कि क्या वे वास्तव में मेरे लिए हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae1"
+  },
+  "id": "60",
+  "question": "60",
+  "QA": "Organizing resources and making things happen has been one of my major strengths.",
+  "AA": "G",
+  "QB": "I generally have tended to minimize my feelings and not pay very much attention to them.",
+  "AB": "I",
+  "HA": "संसाधनों को व्यवस्थित करना और चीजों को संभव बनाना मेरी प्रमुख शक्तियों में से एक रही है",
+  "HB": "मैं आम तौर पर अपनी भावनाओं को कम करने और उन पर अधिक ध्यान न देने की प्रवृत्ति रखता हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae2"
+  },
+  "id": "61",
+  "question": "61",
+  "QA": "I've tended to be driven and very hard on myself.",
+  "AA": "D",
+  "QB": "I've tended to be too emotional and rather undisciplined.",
+  "AB": "E",
+  "HA": "मैं प्रेरित हो गया हूं और खुद पर बहुत सख्त हूं",
+  "HB": "मैं अत्यधिक भावुक और अनुशासनहीन हो गया हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae3"
+  },
+  "id": "62",
+  "question": "62",
+  "QA": "I have tried to keep my life fast-paced, intense, and exciting.",
+  "AA": "I",
+  "QB": "I have tried to keep my life regular, stable, and peaceful.",
+  "AB": "A",
+  "HA": "मैंने अपने जीवन को तेज़-तर्रार, गहन और रोमांचक बनाए रखने की कोशिश की है",
+  "HB": "मैंने अपने जीवन को नियमित, स्थिर और शांतिपूर्ण रखने का प्रयास किया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae4"
+  },
+  "id": "63",
+  "question": "63",
+  "QA": "Even though I've had successes, I've tended to doubt my abilities.",
+  "AA": "B",
+  "QB": "Even though I've had setbacks, I've had a lot of confidence in my abilities.",
+  "AB": "C",
+  "HA": "हालाँकि मुझे सफलताएँ मिली हैं, फिर भी मैं अपनी क्षमताओं पर संदेह करने लगा हूँ",
+  "HB": "भले ही मुझे असफलताएँ मिलीं, लेकिन मुझे अपनी क्षमताओं पर बहुत भरोसा था",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae5"
+  },
+  "id": "64",
+  "question": "64",
+  "QA": "I generally have tended to dwell on my feelings and to hold onto them for a long time.",
+  "AA": "E",
+  "QB": "I generally have tended to minimize my feelings and not pay very much attention to them.",
+  "AB": "H.",
+  "HA": "मैं आम तौर पर अपनी भावनाओं पर ध्यान केंद्रित करने और उन्हें लंबे समय तक बनाए रखने की प्रवृत्ति रखता हूं.",
+  "HB": "मैं आम तौर पर अपनी भावनाओं को कम करने और उन पर अधिक ध्यान न देने की प्रवृत्ति रखता हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae6"
+  },
+  "id": "65",
+  "question": "65",
+  "QA": "I have provided many people with attention and nurturance.",
+  "AA": "F",
+  "QB": "I have provided many people with direction and motivation.",
+  "AB": "G",
+  "HA": "मैंने कई लोगों को ध्यान और पोषण प्रदान किया है",
+  "HB": "मैंने कई लोगों को दिशा और प्रेरणा प्रदान की है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae7"
+  },
+  "id": "66",
+  "question": "66",
+  "QA": "I've been a bit serious and strict with myself.",
+  "AA": "D",
+  "QB": "I've been a bit free-wheeling and permissive with myself.",
+  "AB": "I.",
+  "HA": "मैं अपने प्रति थोड़ा गंभीर और सख्त रहा हूं.",
+  "HB": "मैं अपने प्रति थोड़ा स्वतंत्र और अनुदार रहा हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae8"
+  },
+  "id": "67",
+  "question": "67",
+  "QA": "I've been self-assertive and driven to excel.",
+  "AA": "C",
+  "QB": "I've been modest and have been happy to go at my own pace.",
+  "AB": "A",
+  "HA": "मैं आत्म-दृढ़ हूं और उत्कृष्टता प्राप्त करने के लिए प्रेरित हूं",
+  "HB": "मैं विनम्र रहा हूं और अपनी गति से चलने में खुश हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7ae9"
+  },
+  "id": "68",
+  "question": "68",
+  "QA": "I have been proud of my clarity and objectivity.",
+  "AA": "H",
+  "QB": "I have been proud of my reliability and commitment.",
+  "AB": "B",
+  "HA": "मुझे अपनी स्पष्टता और निष्पक्षता पर गर्व है",
+  "HB": "मुझे अपनी विश्वसनीयता और प्रतिबद्धता पर गर्व है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aea"
+  },
+  "id": "69",
+  "question": "69",
+  "QA": "I have spent a lot of time looking inward-understanding my feelings bas been important to me.",
+  "AA": "E",
+  "QB": "I have not spent much time looking inward-getting things done has been important to me.",
+  "AB": "G.",
+  "HA": "मैंने अपने अंदर झाँकने और अपनी भावनाओं को समझने में बहुत समय बिताया है जो मेरे लिए महत्वपूर्ण रहा है.",
+  "HB": "मैंने अंदर की ओर देखने में ज्यादा समय नहीं बिताया है-चीजें करना मेरे लिए महत्वपूर्ण रहा है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aeb"
+  },
+  "id": "70",
+  "question": "70",
+  "QA": "Generally, I have thought of myself as a sunny, casual person.",
+  "AA": "A",
+  "QB": "Generally, I have thought of myself as a serious, dignified person.",
+  "AB": "D",
+  "HA": "आम तौर पर, मैंने खुद को एक खुशमिजाज, सामान्य व्यक्ति के रूप में सोचा है",
+  "HB": "आम तौर पर, मैंने खुद को एक गंभीर, प्रतिष्ठित व्यक्ति के रूप में सोचा है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aec"
+  },
+  "id": "71",
+  "question": "71",
+  "QA": "I've had an agile mind and boundless energy.",
+  "AA": "I",
+  "QB": "I've had a caring heart and deep dedication.",
+  "AB": "F",
+  "HA": "मेरे पास एक चंचल दिमाग और असीमित ऊर्जा है",
+  "HB": "मेरे पास देखभाल करने वाला दिल और गहरा समर्पण है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aed"
+  },
+  "id": "72",
+  "question": "72",
+  "QA": "I have pursued activities that had a substantial potential for reward and personal recognition.",
+  "AA": "C",
+  "QB": "I have been willing to give up reward and personal recognition if it meant doing work I was really interested in.",
+  "AB": "H",
+  "HA": "मैंने ऐसी गतिविधियाँ अपनाई हैं जिनमें पुरस्कार और व्यक्तिगत मान्यता की पर्याप्त संभावनाएँ थीं",
+  "HB": "अगर मुझे वह काम करना है जिसमें मेरी वास्तव में रुचि है तो मैं पुरस्कार और व्यक्तिगत मान्यता छोड़ने को तैयार हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aee"
+  },
+  "id": "73",
+  "question": "73",
+  "QA": "Fulfilling social obligations has seldom been high on my agenda.",
+  "AA": "E",
+  "QB": "I have usually have taken my social obligations very seriously.",
+  "AB": "B",
+  "HA": "सामाजिक दायित्वों को पूरा करना मेरे एजेंडे में शायद ही कभी ऊपर रहा हो",
+  "HB": "मैंने आमतौर पर अपने सामाजिक दायित्वों को बहुत गंभीरता से लिया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aef"
+  },
+  "id": "74",
+  "question": "74",
+  "QA": "In most situations, I have preferred to take the lead.",
+  "AA": "G",
+  "QB": "In most situations, I have preferred to let someone else take the lead.",
+  "AB": "A",
+  "HA": "अधिकांश स्थितियों में, मैंने नेतृत्व करना पसंद किया है",
+  "HB": "ज्यादातर स्थितियों में, मैंने किसी और को नेतृत्व करने देना पसंद किया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af0"
+  },
+  "id": "75",
+  "question": "75",
+  "QA": "Over the years, my values and lifestyle have changed several times.",
+  "AA": "C",
+  "QB": "Over the years, my values and lifestyle have remained fairly consistent.",
+  "AB": "D",
+  "HA": "इन वर्षों में, मेरे मूल्य और जीवनशैली कई बार बदली हैं",
+  "HB": "इन वर्षों में, मेरे मूल्य और जीवनशैली काफी सुसंगत रहे हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af1"
+  },
+  "id": "76",
+  "question": "76",
+  "QA": "Typically, I have not had much self-discipline.",
+  "AA": "I",
+  "QB": "Typically, I have not had much connection with people.",
+  "AB": "H",
+  "HA": "आमतौर पर, मुझमें ज्यादा आत्म-अनुशासन नहीं है",
+  "HB": "आमतौर पर मेरा लोगों से ज्यादा जुड़ाव नहीं रहा है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af2"
+  },
+  "id": "77",
+  "question": "77",
+  "QA": "I have tended to withhold my affection, and have wanted others to come into my world.",
+  "AA": "E",
+  "QB": "I have tended to give my affection too freely, and have wanted to extend myself to others.",
+  "AB": "F",
+  "HA": "मैं अपने स्नेह को रोककर रखता हूं और चाहता हूं कि दूसरे लोग मेरी दुनिया में आएं",
+  "HB": "मैं अपना स्नेह बहुत खुलकर देने की प्रवृत्ति रखता हूँ, और स्वयं को दूसरों तक फैलाना चाहता हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af3"
+  },
+  "id": "78",
+  "question": "78",
+  "QA": "I have had a tendency to think of worst case scenarios.",
+  "AA": "B",
+  "QB": "I have had a tendency to think that everything will work out for the best.",
+  "AB": "A",
+  "HA": "मेरी सबसे बुरी स्थिति के बारे में सोचने की प्रवृत्ति रही है",
+  "HB": "मेरी यह सोचने की प्रवृत्ति रही है कि सब कुछ अच्छे से होगा",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af4"
+  },
+  "id": "79",
+  "question": "79",
+  "QA": "People have trusted me because I am confident and can look out for them.",
+  "AA": "G",
+  "QB": "People have trusted me because I am fair and will do what is right.",
+  "AB": "D",
+  "HA": "लोगों ने मुझ पर भरोसा किया है क्योंकि मैं आश्वस्त हूं और उनका ख्याल रख सकता हूं",
+  "HB": "लोगों ने मुझ पर भरोसा किया है क्योंकि मैं निष्पक्ष हूं और जो सही होगा वही करूंगा",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af5"
+  },
+  "id": "80",
+  "question": "80",
+  "QA": "Often, I have been so involved in my own projects that I have become isolated from others.",
+  "AA": "H",
+  "QB": "Often, I have been so involved with others that I have neglected my own projects.",
+  "AB": "F",
+  "HA": "अक्सर, मैं अपनी ही परियोजनाओं में इतना व्यस्त हो गया हूं कि मैं दूसरों से अलग-थलग हो गया हूं",
+  "HB": "अक्सर, मैं दूसरों के साथ इतना व्यस्त हो गया हूं कि मैंने अपनी खुद की परियोजनाओं की उपेक्षा कर दी है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af6"
+  },
+  "id": "81",
+  "question": "81",
+  "QA": "When meeting someone new, I have usually been poised and self-contained.",
+  "AA": "C",
+  "QB": "When meeting someone new, I have usually been chatty and entertaining.",
+  "AB": "I",
+  "HA": "किसी नए व्यक्ति से मिलते समय, मैं आमतौर पर शांत और आत्म-निहित रहता हूँ",
+  "HB": "किसी नए व्यक्ति से मिलते समय, मैं आमतौर पर बातचीत और मनोरंजन करता रहा हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af7"
+  },
+  "id": "82",
+  "question": "82",
+  "QA": "Generally speaking, I have tended to be pessimistic.",
+  "AA": "E",
+  "QB": "Generally speaking, I have tended to be optimistic.",
+  "AB": "A",
+  "HA": "सामान्यतया, मैं निराशावादी हो गया हूँ",
+  "HB": "सामान्यतया, मैं आशावादी रहा हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af8"
+  },
+  "id": "83",
+  "question": "83",
+  "QA": "I have preferred to inhabit my own little world.",
+  "AA": "H",
+  "QB": "I have preferred to let the world know I'm here.",
+  "AB": "G",
+  "HA": "मैंने अपनी छोटी सी दुनिया में रहना पसंद किया है",
+  "HB": "मैंने दुनिया को यह बताना पसंद किया है कि मैं यहां हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7af9"
+  },
+  "id": "84",
+  "question": "84",
+  "QA": "I have often been troubled by nervousness, insecurity, and doubt.",
+  "AA": "B",
+  "QB": "I have often been troubled by anger, perfectionism, and impatience.",
+  "AB": "D",
+  "HA": "मैं अक्सर घबराहट, असुरक्षा और संदेह से परेशान रहा हूं",
+  "HB": "मैं अक्सर क्रोध, पूर्णतावाद और अधीरता से परेशान रहा हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7afa"
+  },
+  "id": "85",
+  "question": "85",
+  "QA": "I realize that I have often been too personal and intimate.",
+  "AA": "F",
+  "QB": "I realize that I have often been too distant and aloof.",
+  "AB": "C",
+  "HA": "मुझे एहसास है कि मैं अक्सर बहुत अधिक व्यक्तिगत और अंतरंग रहा हूँ",
+  "HB": "मुझे एहसास है कि मैं अक्सर बहुत दूर और अलग-थलग रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7afb"
+  },
+  "id": "86",
+  "question": "86",
+  "QA": "I have lost out because I have not felt up to taking opportunities.",
+  "AA": "E",
+  "QB": "I have lost out because I have pursued too many possibilities.",
+  "AB": "I",
+  "HA": "मैं हार गया हूं क्योंकि मैं अवसरों का लाभ उठाने में सक्षम नहीं हूं",
+  "HB": "मैं हार गया हूं क्योंकि मैंने बहुत सारी संभावनाओं का पीछा किया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7afc"
+  },
+  "id": "87",
+  "question": "87",
+  "QA": "I have tended to take a long time to get into action.",
+  "AA": "H",
+  "QB": "I have tended to get into action quickly.",
+  "AB": "D",
+  "HA": "मुझे कार्रवाई करने में काफी समय लग गया है",
+  "HB": "मेरी प्रवृत्ति शीघ्रता से कार्रवाई में जुट जाने की रही है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7afd"
+  },
+  "id": "88",
+  "question": "88",
+  "QA": "I usually have had difficulty making decisions.",
+  "AA": "B",
+  "QB": "I seldom have had difficulty making decisions.",
+  "AB": "G",
+  "HA": "मुझे आमतौर पर निर्णय लेने में कठिनाई होती है",
+  "HB": "मुझे निर्णय लेने में शायद ही कभी कठिनाई हुई हो",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7afe"
+  },
+  "id": "89",
+  "question": "89",
+  "QA": "I have had a tendency to come on a little too strong with people.",
+  "AA": "F",
+  "QB": "I have had a tendency not to assert myself enough with people.",
+  "AB": "A",
+  "HA": "मेरी लोगों के साथ कुछ ज्यादा ही सख्ती से पेश आने की प्रवृत्ति रही है",
+  "HB": "मेरी यह प्रवृत्ति रही है कि मैं लोगों के सामने अपने आप को पर्याप्त रूप से व्यक्त नहीं कर पाता",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7aff"
+  },
+  "id": "90",
+  "question": "90",
+  "QA": "Typically, I have been even-tempered.",
+  "AA": "C",
+  "QB": "Typically, I have had strong changes of mood .",
+  "AB": "E",
+  "HA": "आमतौर पर, मैं सम स्वभाव का रहा हूँ",
+  "HB": "आमतौर पर, मेरे मूड में तीव्र परिवर्तन हुए हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b00"
+  },
+  "id": "91",
+  "question": "91",
+  "QA": "When I've been unsure of what to do, I've often sought the advice of others.",
+  "AA": "B",
+  "QB": "When I've been unsure of what to do, I've tried different things to see what worked best for me.",
+  "AB": "I",
+  "HA": "जब मैं अनिश्चित होता हूँ कि क्या करूँ, तो मैं अक्सर दूसरों से सलाह लेता हूँ",
+  "HB": "जब मैं अनिश्चित हो गया कि क्या करूँ, तो मैंने यह देखने के लिए अलग-अलग चीज़ें आज़माईं कि मेरे लिए सबसे अच्छा क्या काम करता है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b01"
+  },
+  "id": "92",
+  "question": "92",
+  "QA": "I have worried that I would be left out of other's activities.",
+  "AA": "F",
+  "QB": "I have worried that others' activities would distract me from what I had to do.",
+  "AB": "D",
+  "HA": "मुझे चिंता है कि मुझे दूसरों की गतिविधियों से वंचित कर दिया जाएगा",
+  "HB": "मुझे चिंता है कि दूसरों की गतिविधियाँ मुझे जो करना है उससे मेरा ध्यान भटका देंगी",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b02"
+  },
+  "id": "93",
+  "question": "93",
+  "QA": "Typically, when I have gotten angry, I have told people off .",
+  "AA": "G",
+  "QB": "Typically, when I have gotten angry, I have become distant.",
+  "AB": "C",
+  "HA": "आमतौर पर, जब मुझे गुस्सा आता है तो मैं लोगों को मना कर देता हूं",
+  "HB": "आमतौर पर, जब मुझे गुस्सा आता है तो मैं दूर हो जाता हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b03"
+  },
+  "id": "94",
+  "question": "94",
+  "QA": "I've tended to have trouble falling asleep.",
+  "AA": "H",
+  "QB": "I've tended to fall asleep easily.",
+  "AB": "A",
+  "HA": "मुझे सोने में परेशानी होने लगी है",
+  "HB": "मेरी आदत आसानी से सो जाने की हो गई है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b04"
+  },
+  "id": "95",
+  "question": "95",
+  "QA": "I have often tried to figure out how I could get closer to others.",
+  "AA": "F",
+  "QB": "I have often tried to figure out what others want from me.",
+  "AB": "B",
+  "HA": "मैंने अक्सर यह जानने की कोशिश की है कि मैं दूसरों के करीब कैसे आ सकता हूं",
+  "HB": "मैंने अक्सर यह जानने की कोशिश की है कि दूसरे मुझसे क्या चाहते हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b05"
+  },
+  "id": "96",
+  "question": "96",
+  "QA": "I have usually been measured, straight-talking, and deliberate.",
+  "AA": "G",
+  "QB": "I have usually been excitable, fast-talking, and witty.",
+  "AB": "I",
+  "HA": "मैं आमतौर पर नपा-तुला, सीधी बात करने वाला और विचारशील रहा हूं",
+  "HB": "मैं आमतौर पर उत्तेजित, तेजी से बात करने वाला और मजाकिया रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b06"
+  },
+  "id": "97",
+  "question": "97",
+  "QA": "Often, I have not spoken up when I've seen others making a mistake.",
+  "AA": "E",
+  "QB": "Often, I have helped others see that they are making a mistake.",
+  "AB": "D",
+  "HA": "अक्सर, जब मैंने दूसरों को गलती करते देखा है तो मैंने कुछ नहीं बोला है",
+  "HB": "अक्सर, मैंने दूसरों को यह देखने में मदद की है कि वे गलती कर रहे हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b07"
+  },
+  "id": "98",
+  "question": "98",
+  "QA": "During most of my life, I have been a stormy person who has had maily volatile feelings.",
+  "AA": "I",
+  "QB": "During most of my life, I have been a steady person in whom \"still waters run deep\".",
+  "AB": "A",
+  "HA": "अपने अधिकांश जीवन के दौरान, मैं एक मजबूत व्यक्ति रहा हूँ जिसकी भावनाएँ मुख्यतः अस्थिर रही हैं",
+  "HB": "अपने जीवन के अधिकांश समय में, मैं एक स्थिर व्यक्ति रहा हूँ जिसमें \"शांत पानी गहरा बहता है\"",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b08"
+  },
+  "id": "99",
+  "question": "99",
+  "QA": "When I have disliked people, I have usually tried hard to stay cordial-despite my feelings.",
+  "AA": "C",
+  "QB": "When I have disliked people, I have usually let them know it-one way or another.",
+  "AB": "B",
+  "HA": "जब मैंने लोगों को नापसंद किया है, तो मैंने आम तौर पर अपनी भावनाओं के बावजूद सौहार्दपूर्ण बने रहने की भरपूर कोशिश की है",
+  "HB": "जब मैंने लोगों को नापसंद किया है, तो मैंने आमतौर पर उन्हें यह बता दिया है - किसी न किसी तरीके से",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b09"
+  },
+  "id": "100",
+  "question": "100",
+  "QA": "Much of my difficulty with people has come from my touchiness and taking everything too personally.",
+  "AA": "E",
+  "QB": "Much of my difficulty with people has come from my not caring about social conventions .",
+  "AB": "H",
+  "HA": "लोगों के साथ मेरी अधिकांश कठिनाई मेरी स्पर्शशीलता और हर चीज़ को व्यक्तिगत रूप से लेने के कारण आई है",
+  "HB": "लोगों के साथ मेरी अधिकांश कठिनाई सामाजिक परंपराओं की परवाह न करने के कारण आई है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b0a"
+  },
+  "id": "101",
+  "question": "101",
+  "QA": "My approach has been to jump in and rescue people.",
+  "AA": "F",
+  "QB": "My approach has been to show people how to help themselves.",
+  "AB": "G",
+  "HA": "मेरा दृष्टिकोण कूदकर लोगों को बचाने का रहा है",
+  "HB": "मेरा दृष्टिकोण लोगों को यह दिखाना है कि वे अपनी मदद कैसे करें",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b0b"
+  },
+  "id": "102",
+  "question": "102",
+  "QA": "Generally, I have enjoyed \"letting go\" and pushing the limits.",
+  "AA": "I",
+  "QB": "Generally, I have not enjoyed losing control of myself very much.",
+  "AB": "D",
+  "HA": "आम तौर पर, मैंने \"जाने देना\" और सीमाएं लांघना पसंद किया है",
+  "HB": "आम तौर पर, मुझे ख़ुद पर नियंत्रण खोने में ज़्यादा मज़ा नहीं आता",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b0c"
+  },
+  "id": "103",
+  "question": "103",
+  "QA": "I've been overly concerned with doing better than others.",
+  "AA": "C",
+  "QB": "I've been overly concerned with making things okay for others .",
+  "AB": "A",
+  "HA": "मैं दूसरों से बेहतर करने को लेकर अत्यधिक चिंतित रहा हूं",
+  "HB": "मैं दूसरों के लिए चीजें ठीक करने को लेकर अत्यधिक चिंतित रहा हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b0d"
+  },
+  "id": "104",
+  "question": "104",
+  "QA": "My thoughts generally have been speculative-involving, my imagination and curiosity.",
+  "AA": "H",
+  "QB": "My thoughts generally have been practical-just trying to keep things going.",
+  "AB": "B",
+  "HA": "मेरे विचार आमतौर पर कल्पना और जिज्ञासा से युक्त रहे हैं",
+  "HB": "मेरे विचार आम तौर पर व्यावहारिक रहे हैं-बस चीजों को चालू रखने की कोशिश करना",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b0e"
+  },
+  "id": "105",
+  "question": "105",
+  "QA": "One of my main assets has been my ability to take charge of situations.",
+  "AA": "G",
+  "QB": "One of my main assets has been my ability to describe internal states .",
+  "AB": "E",
+  "HA": "मेरी मुख्य संपत्तियों में से एक स्थितियों को संभालने की मेरी क्षमता रही है",
+  "HB": "मेरी मुख्य संपत्तियों में से एक आंतरिक स्थितियों का वर्णन करने की मेरी क्षमता रही है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b0f"
+  },
+  "id": "106",
+  "question": "106",
+  "QA": "I have pushed to get things done correctly, even if it made people uncomfortable.",
+  "AA": "D",
+  "QB": "I have not liked feeling pressured, so I have not liked pressuring anyone else.",
+  "AB": "A",
+  "HA": "मैंने चीजों को सही तरीके से करने पर जोर दिया है, भले ही इससे लोगों को असुविधा हुई हो",
+  "HB": "मुझे दबाव महसूस करना पसंद नहीं है, इसलिए मुझे किसी और पर दबाव डालना पसंद नहीं है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b10"
+  },
+  "id": "107",
+  "question": "107",
+  "QA": "I've often taken pride in how important I run in others' lives.",
+  "AA": "F",
+  "QB": "I've often taken pride in my gusto and openness to new experiences.",
+  "AB": "I",
+  "HA": "मुझे अक्सर इस बात पर गर्व होता है कि मैं दूसरों के जीवन में कितना महत्वपूर्ण भूमिका निभाता हूँ",
+  "HB": "मुझे अक्सर अपने उत्साह और नए अनुभवों के प्रति खुलेपन पर गर्व होता है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b11"
+  },
+  "id": "108",
+  "question": "108",
+  "QA": "I have perceived that I've often come across to others as presentable, even admirable.",
+  "AA": "C",
+  "QB": "I have perceived that I've often come across to others as unusual, even odd.",
+  "AB": "H",
+  "HA": "मैंने महसूस किया है कि मैं अक्सर दूसरों के सामने प्रस्तुत करने योग्य, यहाँ तक कि प्रशंसनीय के रूप में सामने आता हूँ",
+  "HB": "मैंने महसूस किया है कि मैं अक्सर दूसरों के सामने असामान्य, यहाँ तक कि अजीब भी आया हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b12"
+  },
+  "id": "109",
+  "question": "109",
+  "QA": "I have mostly done what I had to do.",
+  "AA": "B",
+  "QB": "I have mostly done what I wanted to do.",
+  "AB": "E",
+  "HA": "मैंने ज़्यादातर वही किया है जो मुझे करना था",
+  "HB": "मैंने ज़्यादातर वही किया है जो मैं करना चाहता था",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b13"
+  },
+  "id": "110",
+  "question": "110",
+  "QA": "I have usually enjoyed high-pressure, even difficult, situations.",
+  "AA": "G",
+  "QB": "I have usually disliked being in high-pressure, even difficult, situations.",
+  "AB": "A",
+  "HA": "मैंने आमतौर पर उच्च दबाव, यहां तक कि कठिन परिस्थितियों का भी आनंद लिया है",
+  "HB": "मुझे आमतौर पर उच्च दबाव, यहां तक कि कठिन परिस्थितियों में रहना पसंद नहीं है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b14"
+  },
+  "id": "111",
+  "question": "111",
+  "QA": "I've been proud of my ability to be flexible-what's appropriate or important often changes.",
+  "AA": "C",
+  "QB": "I've been proud of my ability to take a stand-I've been firm about what I believe in .",
+  "AB": "D",
+  "HA": "मुझे लचीला होने की अपनी क्षमता पर गर्व है - जो उचित या महत्वपूर्ण है वह अक्सर बदलता रहता है",
+  "HB": "मुझे अपना रुख अपनाने की क्षमता पर गर्व है-मैं जिस चीज में विश्वास करता हूं, उस पर दृढ़ हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b15"
+  },
+  "id": "112",
+  "question": "112",
+  "QA": "My style has leaned toward spareness and austerity.",
+  "AA": "H",
+  "QB": "My style has leaned toward excess and over-doing things.",
+  "AB": "I",
+  "HA": "मेरी शैली संयम और मितव्ययता की ओर झुक गई है",
+  "HB": "मेरी शैली अति और जरूरत से ज्यादा काम करने की ओर झुक गई है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b16"
+  },
+  "id": "113",
+  "question": "113",
+  "QA": "My own health and well-being have suffered because of my strong desire to help others .",
+  "AA": "F",
+  "QB": "My relationships have suffered because of my strong desire to attend to my personal needs.",
+  "AB": "E",
+  "HA": "दूसरों की मदद करने की मेरी प्रबल इच्छा के कारण मेरा अपना स्वास्थ्य और खुशहाली प्रभावित हुई है",
+  "HB": "मेरी निजी ज़रूरतों को पूरा करने की मेरी प्रबल इच्छा के कारण मेरे रिश्तों पर असर पड़ा है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b17"
+  },
+  "id": "114",
+  "question": "114",
+  "QA": "Generally speaking, I've been too open and naive.",
+  "AA": "A",
+  "QB": "Generally speaking, I've been too wary and guarded.",
+  "AB": "B",
+  "HA": "सामान्यतया, मैं बहुत खुला और अनुभवहीन रहा हूँ",
+  "HB": "सामान्यतया, मैं बहुत अधिक सावधान और सतर्क रहता हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b18"
+  },
+  "id": "115",
+  "question": "115",
+  "QA": "I have sometimes put people off by being too aggressive.",
+  "AA": "G",
+  "QB": "I have sometimes put people off by being too \"up-tight\".",
+  "AB": "D.",
+  "HA": "मैंने कभी-कभी अत्यधिक आक्रामक होकर लोगों को हतोत्साहित किया है.",
+  "HB": "मैंने कभी-कभी बहुत अधिक \"सख्त\" होकर लोगों को हतोत्साहित किया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b19"
+  },
+  "id": "116",
+  "question": "116",
+  "QA": "Being of service and attending to the needs of others has been a high priority for me.",
+  "AA": "F",
+  "QB": "Finding alternative ways of seeing and aoing things has been a high priority for me.",
+  "AB": "H",
+  "HA": "सेवा में रहना और दूसरों की जरूरतों को पूरा करना मेरे लिए उच्च प्राथमिकता रही है",
+  "HB": "चीजों को देखने और करने के वैकल्पिक तरीके खोजना मेरे लिए उच्च प्राथमिकता रही है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b1a"
+  },
+  "id": "117",
+  "question": "117",
+  "QA": "I've been single-minded and persistent in pursuing my goals.",
+  "AA": "C",
+  "QB": "I've preferred to explore various courses of action to see where they lead.",
+  "AB": "I",
+  "HA": "मैं अपने लक्ष्यों को प्राप्त करने के लिए एकनिष्ठ और दृढ़ रहा हूं",
+  "HB": "मैंने यह देखने के लिए कार्रवाई के विभिन्न तरीकों का पता लगाना पसंद किया है कि वे किस ओर ले जाते हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b1b"
+  },
+  "id": "118",
+  "question": "118",
+  "QA": "I have frequently been drawn to situations that stir up deep, intense emotions.",
+  "AA": "E",
+  "QB": "I have frequently been drawn to situations that make me feel calm and at ease.",
+  "AB": "A",
+  "HA": "मैं अक्सर ऐसी स्थितियों की ओर आकर्षित हुआ हूं जो गहरी, तीव्र भावनाएं जगाती हैं",
+  "HB": "मैं अक्सर ऐसी स्थितियों की ओर आकर्षित होता हूं जो मुझे शांत और सहज महसूस कराती हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b1c"
+  },
+  "id": "119",
+  "question": "119",
+  "QA": "I have cared less about practical results than about pursuing my interests.",
+  "AA": "H",
+  "QB": "I have been practical and have expected my work to have concrete results.",
+  "AB": "G",
+  "HA": "मैंने अपने हितों को आगे बढ़ाने की तुलना में व्यावहारिक परिणामों की कम परवाह की है",
+  "HB": "मैं व्यावहारिक रहा हूं और उम्मीद करता हूं कि मेरे काम के ठोस नतीजे आएं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b1d"
+  },
+  "id": "120",
+  "question": "120",
+  "QA": "I have had a deep need to belong.",
+  "AA": "B",
+  "QB": "I have had a deep need to feel balanced.",
+  "AB": "D",
+  "HA": "मुझे इससे संबंधित होने की गहरी आवश्यकता है",
+  "HB": "मुझे संतुलित महसूस करने की गहरी आवश्यकता है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b1e"
+  },
+  "id": "121",
+  "question": "121",
+  "QA": "In the past, I've probably insisted on too much closeness in my friendships.",
+  "AA": "F",
+  "QB": "In the past, I've probably kept too much distance in my friendships.",
+  "AB": "C",
+  "HA": "अतीत में, मैंने संभवतः अपनी मित्रता में बहुत अधिक निकटता पर जोर दिया है",
+  "HB": "अतीत में, मैंने संभवतः अपनी मित्रता में बहुत अधिक दूरी बनाए रखी है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b1f"
+  },
+  "id": "122",
+  "question": "122",
+  "QA": "I've had a tendency to keep thinking about things from the past.",
+  "AA": "E",
+  "QB": "I've had a tendency to keep anticipating things I'm going to do.",
+  "AB": "I",
+  "HA": "मेरी अतीत की चीज़ों के बारे में सोचते रहने की प्रवृत्ति रही है",
+  "HB": "मेरी प्रवृत्ति रही है कि मैं जो कुछ करने जा रहा हूँ उसका पूर्वानुमान लगाता रहता हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b20"
+  },
+  "id": "123",
+  "question": "123",
+  "QA": "I've tended to see people as intrusive and demanding.",
+  "AA": "H",
+  "QB": "I've tended to see people as disorganized and irresponsible.",
+  "AB": "D",
+  "HA": "मैं लोगों को घुसपैठिया और मांग करने वाला मानता हूं",
+  "HB": "मैं लोगों को असंगठित और गैर-जिम्मेदार मानता हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b21"
+  },
+  "id": "124",
+  "question": "124",
+  "QA": "Generally, I have not had much confidence in myself.",
+  "AA": "B",
+  "QB": "Generally, I have had confidence only in myself.",
+  "AB": "G",
+  "HA": "आम तौर पर, मुझे खुद पर ज्यादा भरोसा नहीं है",
+  "HB": "आमतौर पर मुझे खुद पर ही भरोसा रहा है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b22"
+  },
+  "id": "125",
+  "question": "125",
+  "QA": "I've probably been too passive and uninvolved.",
+  "AA": "A",
+  "QB": "I've probably been too controlling and manipulative.",
+  "AB": "F",
+  "HA": "मैं संभवतः बहुत अधिक निष्क्रिय और असंबद्ध हो गया हूँ",
+  "HB": "मैं शायद बहुत अधिक नियंत्रित और चालाकी करने वाला रहा हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b23"
+  },
+  "id": "126",
+  "question": "126",
+  "QA": "I've frequently been stopped in my tracks by my self-doubt.",
+  "AA": "E",
+  "QB": "I've rarely let self-doubt stand in my way.",
+  "AB": "C",
+  "HA": "मुझे अक्सर अपने ट्रैक में आत्म-संदेह के कारण रोका गया है",
+  "HB": "मैंने शायद ही कभी आत्म-संदेह को अपने रास्ते में आने दिया हो",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b24"
+  },
+  "id": "127",
+  "question": "127",
+  "QA": "Given a choice between something familiar and something new, I've usually chosen something new.",
+  "AA": "I",
+  "QB": "I've generally chosen what I knew I already liked: why be disappointed with something I might not like?.",
+  "AB": "B",
+  "HA": "कुछ परिचित और कुछ नए के बीच विकल्प को देखते हुए, मैंने आमतौर पर कुछ नया चुना है",
+  "HB": "मैंने आम तौर पर वही चुना है जो मुझे पता था कि मुझे पहले से ही पसंद है: किसी ऐसी चीज़ से निराश क्यों होना जो मुझे पसंद नहीं है?",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b25"
+  },
+  "id": "128",
+  "question": "128",
+  "QA": "I have given a lot of physical contact to reassure others about how I feel about them.",
+  "AA": "F",
+  "QB": "I have generally felt that real love does not depend on physical contact.",
+  "AB": "D",
+  "HA": "मैंने दूसरों को आश्वस्त करने के लिए कि मैं उनके बारे में कैसा महसूस करता हूं, बहुत अधिक शारीरिक संपर्क किया है",
+  "HB": "मैंने आम तौर पर महसूस किया है कि सच्चा प्यार शारीरिक संपर्क पर निर्भर नहीं करता है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b26"
+  },
+  "id": "129",
+  "question": "129",
+  "QA": "When I've needed to confront someone, I've often been too harsh and direct.",
+  "AA": "G",
+  "QB": "When I've needed to confront someone, I've often \"beaten around the bush\" too much.",
+  "AB": "C",
+  "HA": "जब मुझे किसी का सामना करना पड़ता है, तो मैं अक्सर बहुत कठोर और सीधा हो जाता हूं",
+  "HB": "जब मुझे किसी का सामना करना पड़ता है, तो मैं अक्सर बहुत ज्यादा इधर-उधर की बातें करता हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b27"
+  },
+  "id": "130",
+  "question": "130",
+  "QA": "I have been attracted to subjects that others would probably find disturbing, even frightening.",
+  "AA": "H",
+  "QB": "I have preferred not to spend my time dwelling on disturbing, frightening subjects.",
+  "AB": "A",
+  "HA": "मैं उन विषयों के प्रति आकर्षित हुआ हूं जो दूसरों को संभवतः परेशान करने वाले, यहां तक कि भयावह भी लगेंगे",
+  "HB": "मैंने परेशान करने वाले, डरावने विषयों पर अपना समय बर्बाद नहीं करना पसंद किया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b28"
+  },
+  "id": "131",
+  "question": "131",
+  "QA": "I have gotten into trouble with people by being too intrusive and interfering.",
+  "AA": "F",
+  "QB": "I have gotten into trouble with people by being too evasive and uncommunicative.",
+  "AB": "B",
+  "HA": "मैं बहुत ज्यादा आक्रामक और हस्तक्षेप करके लोगों के साथ परेशानी में पड़ गया हूं",
+  "HB": "मैं बहुत ज्यादा दखलअंदाजी करके लोगों से परेशानी में पड़ गया हूं और मैं बहुत ज्यादा टाल-मटोल करने वाला और संवादहीन होकर लोगों से परेशानी में पड़ गया हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b29"
+  },
+  "id": "132",
+  "question": "132",
+  "QA": "I've worried that I don't have the resources to fulfill the responsibilities I've taken on.",
+  "AA": "G",
+  "QB": "I've worried that I don't have the self-discipline to focus on what will really fulfill me.",
+  "AB": "I",
+  "HA": "मुझे चिंता है कि जो जिम्मेदारियां मैंने उठाई हैं उन्हें पूरा करने के लिए मेरे पास संसाधन नहीं हैं",
+  "HB": "मुझे चिंता है कि मेरे पास इस बात पर ध्यान केंद्रित करने के लिए आत्म-अनुशासन नहीं है कि वास्तव में मुझे क्या पूरा करेगा",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b2a"
+  },
+  "id": "133",
+  "question": "133",
+  "QA": "Generally, I've been a highly intuitive, individualistic person.",
+  "AA": "E",
+  "QB": "Generally, I've been a highly organized, responsible person.",
+  "AB": "D",
+  "HA": "आम तौर पर, मैं अत्यधिक अंतर्ज्ञानी, व्यक्तिवादी व्यक्ति रहा हूं",
+  "HB": "आम तौर पर, मैं एक अत्यधिक संगठित, जिम्मेदार व्यक्ति रहा हूँ",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b2b"
+  },
+  "id": "134",
+  "question": "134",
+  "QA": "Overcoming inertia has been one of my main problems.",
+  "AA": "A",
+  "QB": "Being unable to slow down has been one of my main problems.",
+  "AB": "I",
+  "HA": "जड़ता पर काबू पाना मेरी मुख्य समस्याओं में से एक रही है",
+  "HB": "गति धीमी न कर पाना मेरी मुख्य समस्याओं में से एक रही है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b2c"
+  },
+  "id": "135",
+  "question": "135",
+  "QA": "When I've felt insecure, I've reacted by becoming arrogant and dismissive.",
+  "AA": "C",
+  "QB": "When I've felt insecure, I've reacted by becoming defensive and argumentative.",
+  "AB": "B",
+  "HA": "जब मैंने असुरक्षित महसूस किया है, तो मैंने अहंकारी और उपेक्षापूर्ण बनकर प्रतिक्रिया व्यक्त की है",
+  "HB": "जब भी मैंने असुरक्षित महसूस किया है, मैंने रक्षात्मक और तर्कशील बनकर प्रतिक्रिया व्यक्त की है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b2d"
+  },
+  "id": "136",
+  "question": "136",
+  "QA": "I have generally been open-minded and willing to try new approaches.",
+  "AA": "H",
+  "QB": "I have generally been self-revealing and willing to share my feelings with others.",
+  "AB": "E",
+  "HA": "मैं आम तौर पर खुले विचारों वाला रहा हूं और नए तरीकों को आजमाने का इच्छुक रहा हूं",
+  "HB": "मैं आम तौर पर आत्म-प्रकटीकरण करता रहा हूं और अपनी भावनाओं को दूसरों के साथ साझा करने को तैयार रहता हूं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b2e"
+  },
+  "id": "137",
+  "question": "137",
+  "QA": "I've presented myself to others as tougher than I really am.",
+  "AA": "G",
+  "QB": "I've presented myself to others as caring more than I really do.",
+  "AB": "F",
+  "HA": "मैंने खुद को दूसरों के सामने उतना ही सख्त पेश किया है जितना मैं वास्तव में हूं",
+  "HB": "मैंने स्वयं को दूसरों के सामने अपनी अपेक्षा अधिक परवाह करने वाला प्रस्तुत किया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b2f"
+  },
+  "id": "138",
+  "question": "138",
+  "QA": "I usually have followed my conscience and reason.",
+  "AA": "D",
+  "QB": "I usually have followed my feelings and impulses.",
+  "AB": "I",
+  "HA": "मैंने आमतौर पर अपने विवेक और तर्क का पालन किया है",
+  "HB": "मैंने आमतौर पर अपनी भावनाओं और आवेगों का अनुसरण किया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b30"
+  },
+  "id": "139",
+  "question": "139",
+  "QA": "Serious adversity has made me feel hardened and resolute.",
+  "AA": "C",
+  "QB": "Serious adversity has made me feel discouraged and resigned.",
+  "AB": "A",
+  "HA": "गंभीर प्रतिकूल परिस्थितियों ने मुझे कठोर और दृढ़ महसूस कराया है",
+  "HB": "गंभीर प्रतिकूलता ने मुझे हतोत्साहित कर दिया और इस्तीफा दे दिया",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b31"
+  },
+  "id": "140",
+  "question": "140",
+  "QA": "I usually have made sure that I had some kind of \"safety net\" to fall back on.",
+  "AA": "B",
+  "QB": "I usually have chosen to live on the edge and to depend on as little as possible.",
+  "AB": "H",
+  "HA": "मैंने आमतौर पर यह सुनिश्चित किया है कि मेरे पास वापस आने के लिए किसी प्रकार का \"सुरक्षा जाल\" हो",
+  "HB": "मैंने आमतौर पर किनारे पर रहना और जितना संभव हो सके कम पर निर्भर रहना चुना है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b32"
+  },
+  "id": "141",
+  "question": "141",
+  "QA": "I've had to be strong for others, so I haven't had time to deal with my feelings and fears.",
+  "AA": "G",
+  "QB": "I've had difficulty coping with my feelings and fears, so it's been hard for me to be strong for others.",
+  "AB": "E",
+  "HA": "मुझे दूसरों के लिए मजबूत बनना पड़ा है, इसलिए मेरे पास अपनी भावनाओं और डर से निपटने का समय नहीं है",
+  "HB": "मुझे अपनी भावनाओं और डर से निपटने में कठिनाई हो रही है, इसलिए मेरे लिए दूसरों के लिए मजबूत होना कठिन हो गया है",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b33"
+  },
+  "id": "142",
+  "question": "142",
+  "QA": "I have often wondered why people focus on the negative when there is so much that's wonderful about life.",
+  "AA": "A",
+  "QB": "I have often wondered why people are so happy when so much in life is messed up.",
+  "AB": "D",
+  "HA": "मुझे अक्सर आश्चर्य होता है कि लोग नकारात्मक बातों पर ध्यान क्यों केंद्रित करते हैं जबकि जीवन में इतना कुछ अद्भुत है",
+  "HB": "मुझे अक्सर आश्चर्य होता है कि जब जीवन में इतना कुछ गड़बड़ है तो लोग इतने खुश क्यों होते हैं",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b34"
+  },
+  "id": "143",
+  "question": "143",
+  "QA": "I have tried hard not to be seen as a selfish person.",
+  "AA": "F",
+  "QB": "I have tried hard not to be seen as a boring person.",
+  "AB": "I",
+  "HA": "मैंने बहुत कोशिश की है कि मुझे एक स्वार्थी व्यक्ति के रूप में न देखा जाए",
+  "HB": "मैंने बहुत कोशिश की है कि मुझे एक उबाऊ व्यक्ति के रूप में न देखा जाए",
+  "color": "border:3px solid gray"
+},
+{
+  "_id": {
+    "$oid": "675c73c35fafac54dfee7b35"
+  },
+  "id": "144",
+  "question": "144",
+  "QA": "I have avoided intimacy when I feared I would be overwhelmed by people's needs and demands.",
+  "AA": "H",
+  "QB": "I have avoided intimacy when I feared I would not be able to live up to people's expectations of me.",
+  "AB": "C",
+  "HA": "जब मुझे डर था कि मैं लोगों की ज़रूरतों और मांगों से अभिभूत हो जाऊँगा तो मैंने अंतरंगता से परहेज़ किया है",
+  "HB": "जब मुझे डर था कि मैं लोगों की अपेक्षाओं पर खरा नहीं उतर पाऊंगा तो मैंने अंतरंगता से दूरी बना ली है",
+  "color": "border:3px solid gray"
+}]

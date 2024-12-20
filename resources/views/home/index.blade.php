@@ -5,10 +5,10 @@
 @section('content')
 
 <!-- Hero Section -->
-<section id="hero" class="hero section accent-background">
-    <img src="{{ asset('assets/img/hero-bg.png') }}" alt="" data-aos="fade-in">
+<section id="hero" class="hero section accent-background" style="background-image: url('http://ruchidoctor.local/assets/img/hero-bg.png');background-size: cover;background-repeat: no-repeat;">
+    <!-- <img src="{{ asset('assets/img/hero-bg.png') }}" alt="" data-aos="fade-in"> -->
 
-    <div class="container text-center d-flex flex-column justify-content-end" data-aos="fade-up" data-aos-delay="100">
+    <div class="container text-center h-100 d-flex flex-column justify-content-end" data-aos="fade-up" data-aos-delay="100">
         <div class="content-bottom">
             <h1 class="bebas">
                 CHOOSE TODAY TO BE <br> REMARKABLE FOR A LIFETIME
@@ -27,18 +27,18 @@
 <section id="about" class="about section">
     <div class="container">
         <!-- Button at the bottom -->
-        <div class="text-center mb-5">
-            <a href="#" class="btn btn-primary">Click here to explore the tools of transformation</a>
+        <div class="text-center">
+            <a href="#" class="w-100 button button-fill">Click here to explore the tools of transformation</a>
         </div>
     </div>
 </section>
 
 <section id="services" class="services section">
     <!-- Section Title -->
-    <div class="container">
-        <div class="row gy-4">
+    <div class="container h-100 justify-content-center">
+        <div class="row align-items-center gy-4">
             <!-- Left-side div with smaller width -->
-            <div class="col-xl-4 col-lg-5 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-xl-4 col-lg-5 col-md-12 d-flex" data-aos="fade-up" data-aos-delay="100">
                 <div class="video_text_div text-justify position-relative">
                     <h4 class="video_text">
                         Get to <br>know <br>Ruchi <br>Doctor
@@ -47,7 +47,7 @@
             </div>
 
             <!-- Right-side div with larger width for YouTube iframe -->
-            <div class="col-xl-8 col-lg-7 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-xl-8 col-lg-7 col-md-12  d-flex" data-aos="fade-up" data-aos-delay="200">
 				<div class="service-item position-relative" style="width:100%">
 					<!-- YouTube Video Embed with responsive iframe -->
 					<div class="youtube-video-container" style="position: relative; padding-bottom: 56.25%; height: 0; max-width: 100%; overflow: hidden;">
@@ -61,15 +61,15 @@
 
 <section id="services" class="services section">
     <!-- Section Title -->
-    <div class="container-fluid">
+    <div class="container">
         <div class="row gy-4">
             <!-- Full-width and centered text with larger font size -->
             <div class="video_text_div text-center position-relative" style="width: 100%;">
-                <h1>The world renowned</h1>
-                <h2>PEAK PERFORMANCE</h2>
-                <h2>STRATEGIST, SPEAKER</h2>
-                <h2>AND CONSULTANT</h2>
-                <p style="font-size: 2.5rem;">Spain, India, Canada, Dubai, South Africa, Mauritius</p>
+                <h1 class="font-weight-400 bebas">The world renowned</h1>
+                <h1 class="font-weight-600 bebas">PEAK PERFORMANCE</h1>
+                <h1 class="font-weight-600 bebas">STRATEGIST, SPEAKER</h1>
+                <h1 class="font-weight-600 bebas">AND CONSULTANT</h1>
+                <p class="bebas" style="font-size: 2.5rem;">Spain, India, Canada, Dubai, South Africa, Mauritius</p>
             </div>
         </div>
     </div>

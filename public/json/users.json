@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "676085559a769a2f18062a1b"
+  },
+  "user_id": "$2y$12$oxm5pZHKO3asdDUE1p.HmukwB00eRofYMd3kQQzqHyLmN8GsS4V9m",
+  "name": "Test",
+  "email": "superadmin@hms.com",
+  "phone_code": "+91",
+  "contact": "1234567890",
+  "country": "76",
+  "created_at": {
+    "$date": "2024-12-16T19:53:57.073Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-16T19:53:57.073Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "6761bb6812a0ebb23d0e01e2"
+  },
+  "user_id": "$2y$12$BYIJde0tFrRWFQYqqmXmLeWFzptA7Uyt6rK4xOaxGFHKKCNhZkphW",
+  "name": "asd",
+  "email": "asd@gmail.com",
+  "phone_code": "+93",
+  "contact": "1234567890",
+  "country": "76",
+  "created_at": {
+    "$date": "2024-12-17T17:56:56.679Z"
+  },
+  "updated_at": {
+    "$date": "2024-12-17T17:56:56.679Z"
+  }
+}]
